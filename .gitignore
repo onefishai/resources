@@ -1,0 +1,18 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets (none committed today, but keep this out just in case)
+.env
+
+# Local dev / future build artifacts
+.cache/
+dist/
+node_modules/

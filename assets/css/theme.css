@@ -7,42 +7,55 @@
 
 :root {
   /* Typography (same in both themes) */
-  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
-  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Public Sans', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
 
   /* Light theme (default) */
   --bg: #F2F7FF;
-  --text: #002244;
-  --bg-alt: #E8F0FB;
-  --accent: #0891b2;
+  --text: #003366;
+  --bg-alt: #E4EEFB;
+  --accent: #619AA3;
+  --accent-gold: #E8C172;
   --border: #C8D6E5;
+  --shadow-sm: 0 1px 2px rgba(0, 51, 102, 0.08);
+  --shadow: 0 1px 2px rgba(0, 51, 102, 0.06), 0 6px 16px rgba(0, 51, 102, 0.1);
 }
 
 /* Explicit light override (wins over OS preference below) */
 [data-theme="light"] {
   --bg: #F2F7FF;
-  --text: #002244;
-  --bg-alt: #E8F0FB;
-  --accent: #0891b2;
+  --text: #003366;
+  --bg-alt: #E4EEFB;
+  --accent: #619AA3;
+  --accent-gold: #E8C172;
   --border: #C8D6E5;
+  --shadow-sm: 0 1px 2px rgba(0, 51, 102, 0.08);
+  --shadow: 0 1px 2px rgba(0, 51, 102, 0.06), 0 6px 16px rgba(0, 51, 102, 0.1);
 }
 
 /* OS-level dark preference, used only when no explicit [data-theme] is set */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]):not([data-theme="dark"]) {
-    --bg: #1A1D24;
-    --text: #E2E4EA;
-    --bg-alt: #22252D;
-    --accent: #22d3ee;
-    --border: #2E3240;
+    --bg: #071B2E;
+    --text: #E8F0FB;
+    --bg-alt: #0F2A42;
+    --accent: #74AEB7;
+    --accent-gold: #E8C172;
+    --border: #1D3A56;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.4);
   }
 }
 
 /* Explicit dark override (wins over OS preference, applies regardless of it) */
 [data-theme="dark"] {
-  --bg: #1A1D24;
-  --text: #E2E4EA;
-  --bg-alt: #22252D;
-  --accent: #22d3ee;
-  --border: #2E3240;
+  --bg: #071B2E;
+  --text: #E8F0FB;
+  --bg-alt: #0F2A42;
+  --accent: #74AEB7;
+  --accent-gold: #E8C172;
+  --border: #1D3A56;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.4);
 }

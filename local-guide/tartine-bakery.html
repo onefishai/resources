@@ -1,0 +1,283 @@
+<!--
+  TEMPLATE: to add a new bakery, copy this file, then:
+  1) update all per-bakery content below (marked with inline comments)
+  2) add a matching entry to data/bakeries.json
+  3) add a card to index.html
+  4) add a row to compare.html
+  Do NOT add a "Visit Onefish AI" CTA to this page — individual bakery pages stay
+  purely helpful, with no CTA (see local-guide index.html / compare.html for the CTA).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- per-bakery: title -->
+  <title>Tartine Bakery — Mission District, San Francisco — Onefish AI Local Guide</title>
+  <!-- per-bakery: description -->
+  <meta name="description" content="A guide to Tartine Bakery in the Mission District — photos, what to order, hours, seating, and wifi, all in one place.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/shared.css">
+  <style>
+    .article-header {
+      padding: 4rem 0 2rem;
+    }
+
+    .article-header__eyebrow {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      margin-bottom: 0.75rem;
+    }
+
+    .article-header__title {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .article-header__lede {
+      font-size: 1.125rem;
+      opacity: 0.85;
+      max-width: 640px;
+    }
+
+    /* Hero photo — not covered by shared.css */
+    .hero-photo {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      border-radius: 0.75rem;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 2rem;
+    }
+
+    /* Photo gallery grid — not covered by shared.css */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+    }
+
+    /* Responsive video embed — not covered by shared.css */
+    .video-embed {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .video-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    article section {
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+    }
+
+    article h2 {
+      font-size: 1.375rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    article p {
+      max-width: 720px;
+      margin-bottom: 1rem;
+    }
+
+    article ul {
+      max-width: 720px;
+      padding-left: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    article li {
+      margin-bottom: 0.5rem;
+    }
+
+    .example-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    .example-table th,
+    .example-table td {
+      text-align: left;
+      padding: 0.625rem 0.875rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .example-table th {
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      opacity: 0.7;
+    }
+
+    .example-table td:first-child {
+      font-weight: 600;
+    }
+
+    .quick-facts {
+      margin-top: 1rem;
+    }
+
+    .best-items li strong {
+      display: block;
+    }
+
+    .best-items__source {
+      font-size: 0.875rem;
+      opacity: 0.7;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      opacity: 0.8;
+    }
+
+    .back-link:hover {
+      opacity: 1;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="https://onefishai.github.io/" class="nav__brand">
+        <img src="../assets/img/onefish-logo.svg" alt="" width="32" height="25">
+        Onefish AI
+      </a>
+      <ul class="nav__links">
+        <li><a href="../index.html#tutorials">Tutorials</a></li>
+        <li><a href="../educational/lookup-tables.html">Educational</a></li>
+        <li><a href="../sheets/">Sheets</a></li>
+        <li><a href="index.html">Local Guide</a></li>
+        <li><a href="https://github.com/onefishai/tutorials">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- per-bakery: eyebrow (neighborhood), title (name), lede -->
+      <div class="article-header">
+        <span class="article-header__eyebrow">Mission District, San Francisco</span>
+        <h1 class="article-header__title">Tartine Bakery</h1>
+        <p class="article-header__lede">A Mission District institution — worth planning around if you want fresh bread or a pastry before the good stuff sells out.</p>
+      </div>
+
+      <!--
+        NOTE: photo paths below are placeholders pending real photos. They point to
+        local-guide/images/tartine-bakery/ but the image files do not yet exist.
+      -->
+
+      <!-- per-bakery: hero photo (photos[0]) -->
+      <img class="hero-photo" src="images/tartine-bakery/photo1.jpg" alt="The storefront and display case at Tartine Bakery on Guerrero Street">
+
+      <!-- per-bakery: gallery (photos[1..]) -->
+      <div class="gallery">
+        <img src="images/tartine-bakery/photo2.jpg" alt="A basket of fresh country bread loaves at Tartine Bakery">
+        <img src="images/tartine-bakery/photo3.jpg" alt="Morning buns and pastries in the case at Tartine Bakery">
+      </div>
+
+      <!--
+        per-bakery: video_id — bare YouTube video ID, embedded as
+        https://www.youtube.com/embed/{video_id}. Illustrative placeholder; swap for
+        a real walkthrough video of this bakery when available.
+      -->
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Tartine Bakery walkthrough video" loading="lazy" allowfullscreen></iframe>
+      </div>
+
+      <article>
+        <section id="quick-facts">
+          <h2>Quick Facts</h2>
+          <!-- per-bakery: address, hours, price_range, seating, wifi, parking -->
+          <div class="card quick-facts">
+            <p><strong>Address:</strong> 600 Guerrero St, San Francisco, CA 94110</p>
+            <p><strong>Hours:</strong> Mon-Sun 8am-5pm</p>
+            <p><strong>Price range:</strong> $$</p>
+            <p><strong>Seating:</strong> Indoor and outdoor</p>
+            <p><strong>Wifi:</strong> Not available — a good spot for a quick visit rather than settling in to work</p>
+            <p><strong>Parking:</strong> Street only, metered — arrive early on weekends</p>
+          </div>
+        </section>
+
+        <section id="details">
+          <h2>All the Details</h2>
+          <!-- per-bakery: full schema breakdown table -->
+          <table class="example-table">
+            <tbody>
+              <tr><td>Name</td><td>Tartine Bakery</td></tr>
+              <tr><td>Neighborhood</td><td>Mission District, San Francisco</td></tr>
+              <tr><td>Address</td><td>600 Guerrero St, San Francisco, CA 94110</td></tr>
+              <tr><td>Hours</td><td>Mon-Sun 8am-5pm</td></tr>
+              <tr><td>Parking</td><td>Street only, metered — arrive early on weekends</td></tr>
+              <tr><td>Seating</td><td>Indoor and outdoor</td></tr>
+              <tr><td>Wifi</td><td>No</td></tr>
+              <tr><td>Menu types</td><td>Bread, Pastries, Coffee, Sandwiches</td></tr>
+              <tr><td>Price range</td><td>$$</td></tr>
+              <tr><td>Vibe</td><td>Bustling neighborhood classic</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="best-items">
+          <h2>What People Point To</h2>
+          <!-- per-bakery: best_items, each cited to its source -->
+          <ul class="best-items">
+            <li><strong>Morning Bun</strong><span class="best-items__source">A favorite per Yelp reviews</span></li>
+            <li><strong>Country Bread</strong><span class="best-items__source">A favorite per Google reviews</span></li>
+          </ul>
+          <!-- Illustrative note: exact review data pending a live pull from Yelp/Google before publishing. -->
+          <p><em>Note: the items above are illustrative placeholders based on this bakery's general reputation — swap in current citations from Yelp/Google before this page goes live.</em></p>
+        </section>
+
+        <section id="write-up">
+          <h2>Worth Knowing Before You Go</h2>
+          <!-- per-bakery: warm, non-critique write-up -->
+          <p>Tartine has been a Mission District fixture for years, and it shows in the line that often forms before opening. The bakery leans into what it does best — naturally leavened breads and laminated pastries — rather than trying to be everything to everyone.</p>
+          <p>If you're coming for bread, later mornings tend to have the fullest selection, though popular items can sell out by early afternoon on weekends. There's a mix of indoor counter seating and a few outdoor spots if the weather's nice, but it's a popular corner, so don't expect to camp out with a laptop — there's no wifi, and it's better suited to a quick stop than a long work session.</p>
+        </section>
+      </article>
+
+      <a href="index.html" class="back-link">&larr; Back to Local Guide</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Onefish AI &middot; <a href="https://github.com/onefishai/tutorials">github.com/onefishai/tutorials</a></p>
+  </footer>
+</body>
+</html>

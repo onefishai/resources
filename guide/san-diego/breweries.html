@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Diego Breweries — Onefish AI</title>
+  <meta name="description" content="Independent craft breweries across San Diego.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="https://onefishai.github.io/" class="nav__brand">
+        <img src="../../assets/img/onefish-logo.svg" alt="Onefish AI" width="32" height="25">
+        Onefish AI
+      </a>
+      <ul class="nav__links">
+        <li><a href="../../guide/san-diego/" class="nav__link--active">Guide</a></li>
+        <li><a href="../../learn/">Learn</a></li>
+        <li><a href="https://github.com/onefishai/resources">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__region">San Diego</p>
+        <h1 class="page-header__title">Independent Eateries</h1>
+        <p class="page-header__tagline">A working reference of owner-operated spots across the county.</p>
+      </div>
+    </div>
+    <div class="tabs-wrap">
+      <div class="container">
+        <nav class="tabs">
+          <a href="./" class="tabs__tab">Overview</a>
+          <a href="bakeries.html" class="tabs__tab">Bakeries</a>
+          <a href="coffee.html" class="tabs__tab">Coffee</a>
+          <a href="boba.html" class="tabs__tab">Boba & Juice</a>
+          <a href="restaurants.html" class="tabs__tab">Restaurants</a>
+          <a href="breweries.html" class="tabs__tab tabs__tab--active">Breweries</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="eatery-grid" id="eatery-grid">
+        <p style="opacity:0.5;padding:3rem 0">Loading&hellip;</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Onefish AI &middot; <a href="https://onefish.ai/">onefish.ai</a></p>
+  </footer>
+
+  <script>
+    var CATEGORY = "Brewery";
+
+    function esc(s) {
+      return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    fetch('data/san-diego.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var entries = data.filter(function(e) { return e.category === CATEGORY; });
+        var grid = document.getElementById('eatery-grid');
+
+        if (!entries.length) {
+          grid.innerHTML = '<div class="empty-state"><p>No entries in this category yet.</p><p>Check back as we add more spots.</p></div>';
+          return;
+        }
+
+        grid.innerHTML = entries.map(function(e) {
+          var initial = (e.name || '?').charAt(0).toUpperCase();
+          var meta = [e.neighborhood, e.year ? 'Est.\u00a0' + e.year : ''].filter(Boolean).join(' &middot; ');
+          var footer = '';
+          if (e.website || e.rating) {
+            var parts = [];
+            if (e.website) parts.push('<a href="' + esc(e.website) + '" class="eatery-card__link" target="_blank" rel="noopener">Visit website &rarr;</a>');
+            if (e.rating)  parts.push('<span class="eatery-card__rating">' + esc(e.rating) + '&thinsp;&star;' + (e.reviews ? ' (' + esc(e.reviews) + ')' : '') + '</span>');
+            footer = '<div class="eatery-card__footer">' + parts.join('') + '</div>';
+          }
+          return '<article class="eatery-card">' +
+            '<div class="eatery-card__plate"><span class="eatery-card__plate-letter">' + initial + '</span></div>' +
+            '<div class="eatery-card__body">' +
+              '<p class="eatery-card__meta">' + meta + '</p>' +
+              '<h2 class="eatery-card__name">' + esc(e.name) + '</h2>' +
+              (e.description ? '<p class="eatery-card__desc">' + esc(e.description) + '</p>' : '') +
+              footer +
+            '</div>' +
+            '</article>';
+        }).join('');
+      })
+      .catch(function() {
+        document.getElementById('eatery-grid').innerHTML =
+          '<div class="empty-state"><p>Could not load data.</p></div>';
+      });
+  </script>
+</body>
+</html>

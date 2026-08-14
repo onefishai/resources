@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Diego Eateries — Onefish AI</title>
+  <meta name="description" content="A curated reference of independent eateries across San Diego — bakeries, coffee, boba, restaurants, and breweries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="https://onefishai.github.io/" class="nav__brand">
+        <img src="../../assets/img/onefish-logo.svg" alt="Onefish AI" width="32" height="25">
+        Onefish AI
+      </a>
+      <ul class="nav__links">
+        <li><a href="../../guide/san-diego/" class="nav__link--active">Guide</a></li>
+        <li><a href="../../learn/">Learn</a></li>
+        <li><a href="https://github.com/onefishai/resources">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__region">San Diego</p>
+        <h1 class="page-header__title">Independent Eateries</h1>
+        <p class="page-header__tagline">A working reference of owner-operated spots across the county.</p>
+      </div>
+    </div>
+    <div class="tabs-wrap">
+      <div class="container">
+        <nav class="tabs">
+          <a href="./" class="tabs__tab tabs__tab--active">Overview</a>
+          <a href="bakeries.html" class="tabs__tab">Bakeries</a>
+          <a href="coffee.html" class="tabs__tab">Coffee</a>
+          <a href="boba.html" class="tabs__tab">Boba & Juice</a>
+          <a href="restaurants.html" class="tabs__tab">Restaurants</a>
+          <a href="breweries.html" class="tabs__tab">Breweries</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="filter-bar">
+        <div class="filter-pills" id="filter-pills">
+          <button class="filter-pill filter-pill--active" data-cat="">All</button>
+          <button class="filter-pill" data-cat="Bakery">Bakeries</button>
+          <button class="filter-pill" data-cat="Coffee">Coffee</button>
+          <button class="filter-pill" data-cat="Boba &amp; Juice">Boba &amp; Juice</button>
+          <button class="filter-pill" data-cat="Restaurant">Restaurants</button>
+          <button class="filter-pill" data-cat="Brewery">Breweries</button>
+        </div>
+        <input type="search" class="search-input" id="search" placeholder="Search by name or neighborhood&hellip;" aria-label="Search eateries">
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table" id="eatery-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Neighborhood</th>
+              <th>Category</th>
+              <th>Est.</th>
+              <th>About</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <tr><td colspan="5" class="table-empty">Loading&hellip;</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:0.8125rem;opacity:0.45;padding-bottom:3rem;text-align:right" id="table-count"></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Onefish AI &middot; <a href="https://onefish.ai/">onefish.ai</a></p>
+  </footer>
+
+  <script>
+    var allData = [];
+    var activeCategory = '';
+    var searchQuery = '';
+
+    function esc(s) {
+      return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function render() {
+      var q = searchQuery.toLowerCase();
+      var filtered = allData.filter(function(e) {
+        var matchCat = !activeCategory || e.category === activeCategory;
+        var matchQ   = !q || (e.name||'').toLowerCase().includes(q) || (e.neighborhood||'').toLowerCase().includes(q);
+        return matchCat && matchQ;
+      });
+
+      var tbody = document.getElementById('table-body');
+      var count = document.getElementById('table-count');
+
+      if (!filtered.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="table-empty">No entries found.</td></tr>';
+        count.textContent = '';
+        return;
+      }
+
+      count.textContent = filtered.length + ' of ' + allData.length + ' entries';
+
+      tbody.innerHTML = filtered.map(function(e) {
+        var nameCell = e.website
+          ? '<a href="' + esc(e.website) + '" target="_blank" rel="noopener">' + esc(e.name) + '</a>'
+          : esc(e.name);
+        return '<tr>' +
+          '<td class="table-name">' + nameCell + '</td>' +
+          '<td>' + esc(e.neighborhood || '—') + '</td>' +
+          '<td><span class="tag">' + esc(e.category || '—') + '</span></td>' +
+          '<td>' + esc(e.year || '—') + '</td>' +
+          '<td class="table-desc">' + esc(e.description || '') + '</td>' +
+          '</tr>';
+      }).join('');
+    }
+
+    document.getElementById('filter-pills').addEventListener('click', function(ev) {
+      var pill = ev.target.closest('.filter-pill');
+      if (!pill) return;
+      document.querySelectorAll('.filter-pill').forEach(function(p) { p.classList.remove('filter-pill--active'); });
+      pill.classList.add('filter-pill--active');
+      activeCategory = pill.dataset.cat;
+      render();
+    });
+
+    document.getElementById('search').addEventListener('input', function(ev) {
+      searchQuery = ev.target.value;
+      render();
+    });
+
+    fetch('data/san-diego.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) { allData = data; render(); })
+      .catch(function() {
+        document.getElementById('table-body').innerHTML =
+          '<tr><td colspan="5" class="table-empty">Could not load data.</td></tr>';
+      });
+  </script>
+</body>
+</html>

@@ -3,107 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Onefish AI Resources — Tips, Walkthroughs, and Live Examples</title>
-  <meta name="description" content="Tips, walkthroughs, and live examples from Onefish AI. The automation tricks we use to cut busywork for the people we work with, so they can focus on their craft.">
+  <title>Resources — Onefish AI</title>
+  <meta name="description" content="Practical knowledge for independent operators — local guides and industry concepts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/shared.css">
-  <style>
-    .hero {
-      padding: 5rem 0 4rem;
-      text-align: center;
-    }
-
-    .hero__headline {
-      font-size: clamp(2rem, 5vw, 3rem);
-      font-weight: 700;
-      line-height: 1.15;
-      margin-bottom: 1rem;
-    }
-
-    .hero__subhead {
-      font-size: 1.125rem;
-      max-width: 640px;
-      margin-inline: auto;
-      opacity: 0.85;
-      margin-bottom: 2rem;
-    }
-
-    .section {
-      padding: 3rem 0 5rem;
-    }
-
-    .section__heading {
-      font-size: 1.5rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
-
-    .card--featured {
-      max-width: 640px;
-      margin-inline: auto;
-    }
-
-    .card__eyebrow {
-      display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--accent-gold);
-      margin-bottom: 0.5rem;
-    }
-
-    .card__cta {
-      margin-top: 1rem;
-    }
-  </style>
 </head>
 <body>
   <header>
     <nav class="nav">
       <a href="https://onefishai.github.io/" class="nav__brand">
-        <img src="assets/img/onefish-logo.svg" alt="" width="32" height="25">
+        <img src="assets/img/onefish-logo.svg" alt="Onefish AI" width="32" height="25">
         Onefish AI
       </a>
       <ul class="nav__links">
-        <li><a href="#educational">Educational</a></li>
-        <li><a href="sheets/">Sheets</a></li>
-        <li><a href="local-guide/index.html">Local Guide</a></li>
+        <li><a href="guide/san-diego/">Guide</a></li>
+        <li><a href="learn/">Learn</a></li>
         <li><a href="https://github.com/onefishai/resources">GitHub</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="home-hero">
       <div class="container">
-        <h1 class="hero__headline">Onefish AI Resources</h1>
-        <p class="hero__subhead">Tips, walkthroughs, and live examples of the automation tricks we use to cut busywork for the people we work with, so they can focus on their craft.</p>
-        <a href="educational/lookup-tables.html" class="btn btn--primary">Read the featured tutorial</a>
+        <h1 class="home-hero__title">Onefish AI Resources</h1>
+        <p class="home-hero__sub">Practical knowledge for independent operators — from local eatery guides to industry concepts.</p>
       </div>
     </section>
 
-    <section class="section" id="educational">
+    <section>
       <div class="container">
-        <h2 class="section__heading">Featured Tutorial</h2>
-        <div class="card card--featured">
-          <span class="card__eyebrow">Tutorial</span>
-          <h3 class="card__title">Lookup Tables for Multi-Channel Item Names</h3>
-          <p class="card__body">Every channel calls your items something slightly different. Learn how a simple lookup table reconciles all those names back to one canonical item, so your reporting and forecasting actually add up.</p>
-          <div class="card__cta">
-            <a href="educational/lookup-tables.html" class="btn btn--secondary">Read the tutorial &rarr;</a>
+        <div class="home-sections">
+
+          <div class="home-section-card">
+            <p class="home-section-card__eyebrow">Local Guide</p>
+            <h2 class="home-section-card__title">San Diego Eateries</h2>
+            <p class="home-section-card__desc">A curated reference of independent, owner-operated spots across the county — bakeries, coffee, boba, restaurants, and breweries.</p>
+            <div class="home-section-card__cta">
+              <a href="guide/san-diego/" class="btn btn--primary">Browse the guide &rarr;</a>
+            </div>
           </div>
+
+          <div class="home-section-card">
+            <p class="home-section-card__eyebrow">Industry Concepts</p>
+            <h2 class="home-section-card__title">Learn</h2>
+            <p class="home-section-card__desc">Operational concepts explained for independent operators — lookup tables, production planning, demand forecasting, and more.</p>
+            <div class="home-section-card__cta">
+              <a href="learn/" class="btn btn--secondary">Explore topics &rarr;</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Onefish AI &middot; <a href="https://github.com/onefishai/resources">github.com/onefishai/resources</a></p>
+    <p>Onefish AI &middot; <a href="https://onefish.ai/">onefish.ai</a></p>
   </footer>
 </body>
 </html>

@@ -1,0 +1,2994 @@
+[
+  {
+    "name": "Edelweiss Bakery",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "year": "1967",
+    "description": "Family-owned scratch bakery, European butter and flours, established 1967 (Darien CT), San Diego since 1981",
+    "website": "http://www.edelweissbakerysandiego.com/",
+    "rating": "4.7",
+    "reviews": "614"
+  },
+  {
+    "name": "VG Donut & Bakery",
+    "neighborhood": "Cardiff-by-the-Sea",
+    "category": "Bakery",
+    "year": "1969",
+    "description": "Iconic Cardiff landmark since 1969, third-generation family-owned, surf-town legend",
+    "website": "http://www.vgbakery.com/",
+    "rating": "4.7",
+    "reviews": "1458"
+  },
+  {
+    "name": "Nutmeg Bakery & Cafe",
+    "neighborhood": "Sabre Springs",
+    "category": "Bakery",
+    "description": "Artisan/organic neighborhood cafe-bakery with locally sourced ingredients; two locations (Sabre Springs + Danielson)",
+    "website": "https://www.nutmegsd.com/",
+    "rating": "4.4",
+    "reviews": "1069"
+  },
+  {
+    "name": "Hans & Harry's Bakery",
+    "neighborhood": "Bonita",
+    "category": "Bakery",
+    "description": "World-famous Fresh Fruit Strudel; European-style pastries and custom cakes",
+    "website": "http://www.hans-harry.com/",
+    "rating": "4.7",
+    "reviews": "1458"
+  },
+  {
+    "name": "Arely\u2019s French Bakery Cafe",
+    "neighborhood": "Clairemont",
+    "category": "Bakery",
+    "year": "2004",
+    "description": "Family-owned French bakery & cafe celebrating 20+ years in Clairemont",
+    "website": "http://arelysfrenchbakery.com/",
+    "rating": "4.4",
+    "reviews": "769"
+  },
+  {
+    "name": "Batch & Box",
+    "neighborhood": "Carmel Valley / Del Mar",
+    "category": "Bakery",
+    "year": "2020",
+    "description": "Women-owned & operated vegan bakery with two SD locations (Del Mar, UTC La Jolla) and nationwide shipping",
+    "website": "http://batchandbox.com/",
+    "rating": "4.8",
+    "reviews": "524"
+  },
+  {
+    "name": "L'atelier de Paris",
+    "neighborhood": "Carlsbad",
+    "category": "Bakery",
+    "description": "Authentic French bakery and bistro evoking 1950s Paris atmosphere",
+    "website": "https://latelierdeparis.com/",
+    "rating": "4.5",
+    "reviews": "472"
+  },
+  {
+    "name": "Parisien Gourmandises",
+    "neighborhood": "La Jolla",
+    "category": "Bakery",
+    "description": "Owner-chef Moroccan-born trained in Paris; classic Parisian desserts with West-Coast modern refresh",
+    "website": "http://www.parisiengourmandises.com/",
+    "rating": "4.6",
+    "reviews": "382"
+  },
+  {
+    "name": "Starry Lane Bakery",
+    "neighborhood": "Hillcrest",
+    "category": "Bakery",
+    "description": "15+ years as San Diego's dedicated allergen-free bakery (free of gluten, soy, dairy, eggs, nuts, sesame, fish, shellfish)",
+    "website": "http://starrylanebakery.com/",
+    "rating": "4.6",
+    "reviews": "374"
+  },
+  {
+    "name": "The French Gourmet",
+    "neighborhood": "Pacific Beach",
+    "category": "Bakery",
+    "year": "1979",
+    "description": "46-year-old owner-operated French bakery/restaurant/catering by Normandie-raised Chef Malecot; recent financial pressure mentioned in 2025 press",
+    "website": "http://www.thefrenchgourmet.com/",
+    "rating": "4.5",
+    "reviews": "898"
+  },
+  {
+    "name": "Panchita's Kitchen & Bakery",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "description": "Family-owned Mexican bakery+kitchen with multiple SD locations; first full kitchen in the Panchita team",
+    "website": "http://panchitasbakery.com/",
+    "rating": "4.4",
+    "reviews": "705"
+  },
+  {
+    "name": "Mama's Bakery & Deli",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "year": "1988",
+    "description": "Longtime (since 1988) Lebanese bakery+deli, recently relocated within North Park to mixed-use building",
+    "website": "http://mamas-bakery.com/",
+    "rating": "4.4",
+    "reviews": "771"
+  },
+  {
+    "name": "Panchita's Bakery",
+    "neighborhood": "Sherman Heights",
+    "category": "Bakery",
+    "description": "Long-running family-owned Mexican panaderia; open 5:30am-9pm 7 days; high foot traffic",
+    "website": "http://www.panchitasbakery.com",
+    "rating": "4.4",
+    "reviews": "687"
+  },
+  {
+    "name": "Pop Pie Co.",
+    "neighborhood": "University Heights",
+    "category": "Other",
+    "description": "Globally inspired artisanal hand-pie specialist; locations in University Heights, Pacific Beach, and Costa Mesa",
+    "website": "http://poppieco.com/",
+    "rating": "4.7",
+    "reviews": "1690"
+  },
+  {
+    "name": "Nomad Donuts",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "year": "2014",
+    "description": "Independent restaurant with rotating donut flavors; named top-5 donut shop nationally by NY Post; strong local awards",
+    "website": "http://nomaddonuts.com/",
+    "rating": "4.5",
+    "reviews": "1134"
+  },
+  {
+    "name": "Cafe Madeleine North Park",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "year": "2010",
+    "description": "Multi-location French cafe (North Park, South Park, Barrio Logan); founder consulted with Hotel Del's Patrick Ponsaty on menu",
+    "website": "http://www.cafemadeleinesd.com/",
+    "rating": "4.5",
+    "reviews": "774"
+  },
+  {
+    "name": "Sunnyboy Biscuit Co.",
+    "neighborhood": "Hillcrest/University Heights",
+    "category": "Bakery",
+    "description": "Southern biscuit-focused brunch concept; high volume in compact 7am-2:30pm daily window",
+    "website": "https://sunnyboybiscuitco.com/",
+    "rating": "4.6",
+    "reviews": "795"
+  },
+  {
+    "name": "O'Brien's Boulangerie",
+    "neighborhood": "Poway",
+    "category": "Bakery",
+    "description": "French boulangerie with daytime bakery + evening tapas concept; new culinary director Chef Carlos Vargas",
+    "website": "http://www.obriensbakerysd.com/",
+    "rating": "4.5",
+    "reviews": "545"
+  },
+  {
+    "name": "La Mesa Bistro & Bakery",
+    "neighborhood": "La Mesa",
+    "category": "Bakery",
+    "description": "Bistro+bakery operated by the Swami's group; bustling neighborhood spot with strong volume",
+    "website": "https://www.thelamesabistrosd.com/",
+    "rating": "4.5",
+    "reviews": "1062"
+  },
+  {
+    "name": "San Luis Rey Bakery & Restaurant",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "year": "1968",
+    "description": "Family-owned since 1968, single location combining authentic Mexican bakery with full-service restaurant",
+    "website": "https://sanluisreybakery.com/",
+    "rating": "4.4",
+    "reviews": "820"
+  },
+  {
+    "name": "Don Felipe's Panaderia",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Independent Mexican panaderia + deli in downtown Vista with split morning/evening hours",
+    "website": "http://donfelipes.com/",
+    "rating": "4.6",
+    "reviews": "261"
+  },
+  {
+    "name": "The Goods",
+    "neighborhood": "Carlsbad",
+    "category": "Bakery",
+    "year": "2017",
+    "description": "Family-designed and operated artisan doughnut shop with hourly flavor rotation; sells out daily",
+    "website": "https://www.thegoodsdoughnuts.com/",
+    "rating": "4.7",
+    "reviews": "754"
+  },
+  {
+    "name": "La Concha Bakery",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Family-owned Mexican bakery known for traditional pan dulce and custom cakes; high-volume operation",
+    "website": "https://www.laconchabakery.com/",
+    "rating": "4.4",
+    "reviews": "613"
+  },
+  {
+    "name": "The House of Cuban Flavor",
+    "neighborhood": "Chula Vista",
+    "category": "Other",
+    "description": "Family-run Cuban bakery-restaurant with strong online presence and catering arm",
+    "website": "http://houseofcubanflavor.com/",
+    "rating": "4.7",
+    "reviews": "879"
+  },
+  {
+    "name": "D Z Akin's",
+    "neighborhood": "Del Cerro / San Carlos",
+    "category": "Bakery",
+    "year": "1980",
+    "description": "SD institution since 1980 \u2014 225-seat restaurant + bakery + catering, family-run across 3 generations",
+    "website": "https://www.dzakinsdeli.com/",
+    "rating": "4.6",
+    "reviews": "5838"
+  },
+  {
+    "name": "Arevalo's Bakery",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Independent Mexican panaderia with two Vista locations (950 E Vista Way + 328 Vista Village Dr), made-from-scratch using decades-old family recipes",
+    "website": "https://sites.google.com/view/arevalospanaderia/home",
+    "rating": "4.8",
+    "reviews": "76"
+  },
+  {
+    "name": "Village Kitchen & Pie Shoppe",
+    "neighborhood": "Carlsbad",
+    "category": "Other",
+    "year": "1996",
+    "description": "Beloved 30-year Carlsbad institution combining a full-service restaurant with a daily fresh-pie/pastry program",
+    "website": "http://www.villagekitchenpieshoppe.com/",
+    "rating": "4.6",
+    "reviews": "2390"
+  },
+  {
+    "name": "French Corner",
+    "neighborhood": "Leucadia / Encinitas",
+    "category": "Bakery",
+    "year": "2012",
+    "description": "French Master Chef from Paris; 2 locations (Leucadia & Carlsbad); wholesale & catering available",
+    "website": "http://frenchcorner.com/",
+    "rating": "4.5",
+    "reviews": "450"
+  },
+  {
+    "name": "A Delight of France",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "French bakery in downtown Escondido baking daily with fresh ingredients; serves lunch Mon-Sun and large box bakery selection",
+    "website": "http://www.adelightoffrance.com/",
+    "rating": "4.5",
+    "reviews": "822"
+  },
+  {
+    "name": "Figaro Dessert Cafe",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "year": "2016",
+    "description": "3 SD locations (North Park, Hillcrest, Pacific Beach); largest gluten-free dessert selection in San Diego",
+    "website": "http://figarodessertcafe.com/",
+    "rating": "4.4",
+    "reviews": "1155"
+  },
+  {
+    "name": "Opera Patisserie",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "year": "2002",
+    "description": "Wholesale French patisserie supplying hotels, restaurants, and casinos across Southern California; flash-frozen pastries for hospitality use",
+    "website": "http://www.operapatisserie.com/",
+    "rating": "4.6",
+    "reviews": "10"
+  },
+  {
+    "name": "Babycakes Hillcrest",
+    "neighborhood": "Hillcrest",
+    "category": "Bakery",
+    "year": "2008",
+    "description": "Early SD cupcake-craze pioneer; multi-location (Hillcrest, Imperial Beach, Reo Dr) with full restaurant+bar",
+    "website": "http://babycakessandiego.com/",
+    "rating": "4.5",
+    "reviews": "243"
+  },
+  {
+    "name": "Bread & Cie",
+    "neighborhood": "Hillcrest",
+    "category": "Bakery",
+    "year": "1994",
+    "description": "First artisan bread bakery in San Diego; produces 10,000 pastries and 10,000 breads nightly with 178 employees",
+    "website": "http://www.breadandcie.com/",
+    "rating": "4.6",
+    "reviews": "1416"
+  },
+  {
+    "name": "Hazel & Jade Bakery",
+    "neighborhood": "Hillcrest",
+    "category": "Bakery",
+    "year": "2017",
+    "description": "100% plant-based and gluten-free vegan bakery; began as wholesale supplier to SD coffee shops",
+    "website": "http://hazelandjade.com/",
+    "rating": "4.8",
+    "reviews": "253"
+  },
+  {
+    "name": "O'side Bakery",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Fresh-made cakes/pastries paired with extensive breakfast and lunch menu",
+    "website": "https://www.osidebakery.com/",
+    "rating": "4.4",
+    "reviews": "604"
+  },
+  {
+    "name": "Phatties Bake Shop",
+    "neighborhood": "Loma Portal / Ocean Beach",
+    "category": "Bakery",
+    "description": "Award-winning scratch vegan & gluten-free bake shop",
+    "website": "http://phattiesbakeshop.com/",
+    "rating": "4.8",
+    "reviews": "294"
+  },
+  {
+    "name": "Versailles Cafe & Pastries",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Belgian owner bakes everything from scratch each morning; authentic French cafe atmosphere",
+    "website": "http://v-pastries.com/",
+    "rating": "4.7",
+    "reviews": "426"
+  },
+  {
+    "name": "Darshan Bakery",
+    "neighborhood": "Del Mar",
+    "category": "Bakery",
+    "description": "Classical French viennoiseries and pastries inspired by seasonality; locally owned",
+    "website": "http://darshanbakery.com/",
+    "rating": "4.1",
+    "reviews": "329"
+  },
+  {
+    "name": "Paris En Rose Bakery & Cafe",
+    "neighborhood": "Del Mar",
+    "category": "Bakery",
+    "year": "2023",
+    "description": "Owner trained with renowned French bakers; brings authentic Paris feel",
+    "website": "https://www.parisenrosebakery.com/",
+    "rating": "4.2",
+    "reviews": "165"
+  },
+  {
+    "name": "Madeleine Caf\u00e9 & Bakery",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "description": "French fare meets California fresh; full menu plus bakery production",
+    "website": "http://madeleinecafebakeries.com/",
+    "rating": "4.5",
+    "reviews": "328"
+  },
+  {
+    "name": "LuckyBolt Kitchen + Bakery",
+    "neighborhood": "Sorrento Valley",
+    "category": "Bakery",
+    "year": "2011",
+    "description": "Farm-to-table connecting with local farmers; meal prep + bakery + lounge concept",
+    "website": "http://luckybolt.com/",
+    "rating": "4.8",
+    "reviews": "156"
+  },
+  {
+    "name": "Frost Me Cafe and Bakery",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "year": "2018",
+    "description": "Cupcake Wars winner; small-batch from-scratch bakery; featured on Food Network",
+    "website": "http://www.frostme.com/",
+    "rating": "4.4",
+    "reviews": "520"
+  },
+  {
+    "name": "ASA Bakery",
+    "neighborhood": "East Village",
+    "category": "Bakery",
+    "description": "Authentic Japanese kissaten culture; shares space with speakeasy and sushi bar",
+    "website": "https://asabakerycafe.com/",
+    "rating": "4.3",
+    "reviews": "559"
+  },
+  {
+    "name": "Olive Baking Company",
+    "neighborhood": "Mission Beach",
+    "category": "Bakery",
+    "year": "2015",
+    "description": "Owner-operated since 2015; sister cafe across Mission Blvd; uniquely crafted recipes",
+    "website": "http://olivebakingcompany.com/",
+    "rating": "4.7",
+    "reviews": "272"
+  },
+  {
+    "name": "Donut Bar & Bakery",
+    "neighborhood": "Downtown",
+    "category": "Bakery",
+    "year": "2013",
+    "description": "Founded by celebrity pastry chef; 5,000+ five-star reviews; downtown destination",
+    "website": "https://donutbarsd.com/",
+    "rating": "4.6",
+    "reviews": "3804"
+  },
+  {
+    "name": "Hungry Lu's",
+    "neighborhood": "Ocean Beach",
+    "category": "Bakery",
+    "description": "Sicilian sandwich and cookie house \u2014 independent Italian deli + bakery, owner-operated, well loved in OB",
+    "website": "https://www.hungrylus.com/",
+    "rating": "4.8",
+    "reviews": "335"
+  },
+  {
+    "name": "Muri Coffee & Dessert",
+    "neighborhood": "North Park",
+    "category": "Bakery",
+    "description": "Kurdish-inspired dessert bar founded by UCSD doctoral students; on-demand celebration cake ordering",
+    "website": "http://www.muricafe.com/",
+    "rating": "4.8",
+    "reviews": "501"
+  },
+  {
+    "name": "Honey's Bistro & Bakery",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Coastal Hwy 101 breakfast+bistro+bakery hybrid with strong local following",
+    "website": "https://www.honeysbistroencinitas.com/",
+    "rating": "4.5",
+    "reviews": "572"
+  },
+  {
+    "name": "Barrio Donas",
+    "neighborhood": "Clairemont",
+    "category": "Bakery",
+    "description": "Owner-operated by Jonathan Garcia and Janet Martinez (DBA Best Donuts Bakery Inc); San Diego-Mexican concept; 2nd location in Old Town",
+    "website": "https://barriodonas.com/",
+    "rating": "4.6",
+    "reviews": "526"
+  },
+  {
+    "name": "Su Pan Bakery El Cajon",
+    "neighborhood": "City Heights",
+    "category": "Bakery",
+    "description": "Authentic Mexican bakery with multiple SD locations (El Cajon, Poway, San Marcos, UCSD)",
+    "website": "https://supanbakery.com/en/",
+    "rating": "4.4",
+    "reviews": "894"
+  },
+  {
+    "name": "It's A Piece A Cake",
+    "neighborhood": "Rancho Penasquitos",
+    "category": "Bakery",
+    "description": "Owner-operated cake & pastry bakery using fresh cream and sugar",
+    "website": "https://www.itsapieceacake.com/",
+    "rating": "4.4",
+    "reviews": "152"
+  },
+  {
+    "name": "The King's Craft Coffee Co.",
+    "neighborhood": "Poway",
+    "category": "Coffee",
+    "description": "Roasts coffee weekly in-house, community-focused cafe",
+    "website": "http://thekingscraft.com/",
+    "rating": "4.6",
+    "reviews": "409"
+  },
+  {
+    "name": "North Park Produce Bakery & Grill",
+    "neighborhood": "Poway",
+    "category": "Bakery",
+    "year": "1980",
+    "description": "Family-owned since 1980, Persian/Mediterranean grocery + bakery + grill combo",
+    "website": "http://northparkproducepoway.com/",
+    "rating": "4.3",
+    "reviews": "356"
+  },
+  {
+    "name": "Donutopolis",
+    "neighborhood": "Poway",
+    "category": "Bakery",
+    "description": "Two locations (Poway and Scripps Ranch), high-quality donuts and pastries open 7 days 5am-7pm",
+    "website": "https://www.donutopolispoway.com/",
+    "rating": "4.8",
+    "reviews": "217"
+  },
+  {
+    "name": "La Clochette",
+    "neighborhood": "Mission Valley",
+    "category": "Bakery",
+    "year": "2015",
+    "description": "Sibling-owned French bakery, original location in Pacific Beach (2015), expanded to Mission Valley Civita in 2024",
+    "website": "https://www.laclochettesd.com/",
+    "rating": "4.5",
+    "reviews": "60"
+  },
+  {
+    "name": "Bear Buns Bakery",
+    "neighborhood": "Serra Mesa",
+    "category": "Bakery",
+    "description": "Serra Mesa neighborhood bakery, gluten-free/vegan options, partnered with Caffe Calabria",
+    "website": "https://order.toasttab.com/online/bearbunsbakery",
+    "rating": "4.5",
+    "reviews": "472"
+  },
+  {
+    "name": "Sage French Cake & Coffee",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "description": "Hidden-gem solo owner-operator blending Japanese and French pastry traditions",
+    "rating": "4.4",
+    "reviews": "85"
+  },
+  {
+    "name": "Flour Atelier",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "year": "2023",
+    "description": "Boutique Asian-fusion bakery, Kickstarter-launched, near Mitsuwa Marketplace",
+    "website": "http://www.flouratelier.com/",
+    "rating": "4.5",
+    "reviews": "86"
+  },
+  {
+    "name": "Na Tart",
+    "neighborhood": "Clairemont",
+    "category": "Other",
+    "description": "Specialty Portuguese egg tart bakery with Asian-inspired flavors, daily fresh bakes",
+    "website": "http://natartca.com/",
+    "rating": "4.5",
+    "reviews": "205"
+  },
+  {
+    "name": "Cake De Partie",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "description": "Thai/Asian fusion dessert cafe specializing in pancake souffles and crepe cakes",
+    "website": "http://www.cakedepartie.com/",
+    "rating": "4.4",
+    "reviews": "280"
+  },
+  {
+    "name": "LAB Desserts & Coffee",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "year": "2017",
+    "description": "Independent dessert shop with macarons, novelty desserts (Cotton Candy Burrito, Korean snow ice) and coffee",
+    "website": "http://macaronsandcoffeelab.com/",
+    "rating": "4.4",
+    "reviews": "227"
+  },
+  {
+    "name": "Shakira Pastry",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "description": "Family-owned Middle Eastern bakery; baklava made with housemade ghee and California pistachios",
+    "website": "https://shakirapastry.com/",
+    "rating": "4.2",
+    "reviews": "432"
+  },
+  {
+    "name": "Sultan Baklava",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "description": "Independent baklava-focused bakery freshly baking daily; sister Mediterranean grill next door",
+    "website": "http://sultanbaklava.com/",
+    "rating": "4.3",
+    "reviews": "498"
+  },
+  {
+    "name": "The Habibi Sweets",
+    "neighborhood": "El Cajon",
+    "category": "Other",
+    "year": "2023",
+    "description": "Founded 2023 to share Middle Eastern desserts with the El Cajon community",
+    "website": "https://thehabibisweets.com/",
+    "rating": "4.4",
+    "reviews": "374"
+  },
+  {
+    "name": "El Cajon Bistro & Bakery",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "description": "Family and locally owned bistro+bakery; recent ownership change",
+    "rating": "4.5",
+    "reviews": "756"
+  },
+  {
+    "name": "Mary's Donuts & Coffee",
+    "neighborhood": "Santee",
+    "category": "Bakery",
+    "description": "Family-run Santee donut shop serving the community for 30+ years; second location in Lakeside",
+    "website": "https://marysdonuts.com/",
+    "rating": "4.7",
+    "reviews": "678"
+  },
+  {
+    "name": "Frank's Bakery - Gibaldi's Italian Bread",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "description": "60+ year-old San Diego wholesale bakery supplying Italian bread to local restaurants plus retail",
+    "website": "http://www.franksbakerysandiego.com/",
+    "rating": "4.5",
+    "reviews": "115"
+  },
+  {
+    "name": "Casera Latin Kitchen and Bakery",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Family-owned Peruvian/Colombian restaurant + bakery",
+    "website": "http://eatcasera.com/",
+    "rating": "4.7",
+    "reviews": "270"
+  },
+  {
+    "name": "SPLIT Bakehouse",
+    "neighborhood": "La Mesa",
+    "category": "Other",
+    "year": "2018",
+    "description": "100% vegan wholesale bakery supplying Jaunt Coffee, Michi Michi Bakery, Milk Organics and other coffee shops; storefront window + 4 pickup locations",
+    "website": "http://www.splitbakehouse.com/",
+    "rating": "4.6",
+    "reviews": "135"
+  },
+  {
+    "name": "Sweet Bakery Mexico Lindo",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Wholesale + retail Mexican bakery, scratch-made daily",
+    "website": "https://bakerymexicolindo.com/",
+    "rating": "4.6",
+    "reviews": "339"
+  },
+  {
+    "name": "Glutenus Maximus Bakehouse",
+    "neighborhood": "Vista",
+    "category": "Other",
+    "description": "Niche bakehouse selling at farmers markets across North County",
+    "website": "https://www.glutenusmaximus.com/",
+    "rating": "4.7",
+    "reviews": "135"
+  },
+  {
+    "name": "VanDough French Bakery",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "French-style bakery cafe; sold in 2024 to new ownership (recipes carried over from prior owner)",
+    "rating": "4.2",
+    "reviews": "571"
+  },
+  {
+    "name": "Pink Rose Cafe",
+    "neighborhood": "La Mesa",
+    "category": "Coffee",
+    "description": "Instagram-worthy independent cafe with bakery items, opened by San Diego native Nadia Zamora",
+    "website": "https://www.pinkrosecafe.com/",
+    "rating": "4.3",
+    "reviews": "332"
+  },
+  {
+    "name": "Paris Bakery",
+    "neighborhood": "City Heights",
+    "category": "Bakery",
+    "year": "2008",
+    "description": "Family-founded 2008 French/Vietnamese fusion bakery in Little Saigon SD with fresh daily breads and wholesale program",
+    "website": "http://parisbakerysd.com/",
+    "rating": "4.4",
+    "reviews": "174"
+  },
+  {
+    "name": "Christy's Donuts",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "description": "Independent family-owned donut shop, owner and family run the shop daily; well-loved local with 500+ Google reviews",
+    "website": "https://restoer.com/christy-s-donuts",
+    "rating": "4.4",
+    "reviews": "504"
+  },
+  {
+    "name": "Gooseberries kafe",
+    "neighborhood": "Hillcrest",
+    "category": "Bakery",
+    "description": "From-scratch rustic caf\u00e9-bakery-deli located beneath Abppa Hotel; daily housemade pastries, breads, and soups",
+    "website": "http://gooseberrieskafe.com/",
+    "rating": "4.8",
+    "reviews": "232"
+  },
+  {
+    "name": "Babycakes San Diego",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2007",
+    "description": "One of San Diego's first cupcake bakeries (est. 2007); expanded into a full bakery-restaurant with three locations (Paradise Hills HQ, Hillcrest, Imperial Beach)",
+    "website": "https://www.babycakessandiego.com/",
+    "rating": "4.5",
+    "reviews": "518"
+  },
+  {
+    "name": "Busy Bee's Bagel Bakery",
+    "neighborhood": "La Jolla",
+    "category": "Bakery",
+    "description": "Independent owner-operated neighborhood bagel shop with loyal La Jolla following",
+    "website": "https://m.facebook.com/pages/Busy-Bees-Bagel-Bakery/108063649235333",
+    "rating": "4",
+    "reviews": "289"
+  },
+  {
+    "name": "Rosemonts Cafe",
+    "neighborhood": "Windansea / La Jolla",
+    "category": "Bakery",
+    "year": "2023",
+    "description": "Independent owner-operated Windansea cafe; Joe Coffee partner; scratch-made pastries with strong community presence",
+    "website": "https://rosemontscafe.com/",
+    "rating": "4.7",
+    "reviews": "317"
+  },
+  {
+    "name": "Cafe Elysa",
+    "neighborhood": "Carlsbad Village",
+    "category": "Coffee",
+    "description": "French-inspired cafe baking pastries and desserts in-house daily on Carlsbad Boulevard",
+    "website": "https://www.facebook.com/cafeelysa/",
+    "rating": "4.6",
+    "reviews": "900"
+  },
+  {
+    "name": "Sesame Donuts",
+    "neighborhood": "Carmel Mountain Ranch",
+    "category": "Bakery",
+    "year": "1999",
+    "description": "Independent 24-hour donut shop, 27 years in same Carmel Mountain Ranch strip mall; famously beat back a neighboring Krispy Kreme",
+    "website": "https://www.sesamedonutssd.com/",
+    "rating": "4.7",
+    "reviews": "698"
+  },
+  {
+    "name": "New York Bagels & Cafe",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "year": "2003",
+    "description": "Family-owned, est. 2003 (20+ yrs serving Rancho Bernardo/North County), boils and bakes their own bagels in-house, rainbow/jalapeno cheese flavors",
+    "website": "http://newyorkbagelscafe.com/",
+    "rating": "4.3",
+    "reviews": "442"
+  },
+  {
+    "name": "Aurora's Bakery",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "Authentic Mexican panaderia known for pan dulce and custom cakes; community favorite with 466 Facebook likes",
+    "rating": "4.4",
+    "reviews": "226"
+  },
+  {
+    "name": "The Bread Underground",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "Organic artisanal sourdough using Palomar spring water; scaled from home to commercial kitchen in 2024 with 12+ employees and a dozen+ retail partners",
+    "website": "http://thebreadunderground.com/",
+    "rating": "5",
+    "reviews": "22"
+  },
+  {
+    "name": "Peterson's Donut Corner",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "year": "1981",
+    "description": "Iconic 24-hour walk-up donut shop founded 1981; sold by Peterson family in 2022 to Anthony Deeb who pledged to uphold traditions",
+    "website": "http://petersonsdonutcorner.menutoeat.com/",
+    "rating": "4.6",
+    "reviews": "3614"
+  },
+  {
+    "name": "Debbies Restaurant & Pie Shoppe",
+    "neighborhood": "San Marcos",
+    "category": "Restaurant",
+    "year": "1997",
+    "description": "Family-owned 27+ years; famous for homestyle pies plus full breakfast/brunch service",
+    "website": "http://www.debbiesrestaurantandpieshop.com/",
+    "rating": "4.4",
+    "reviews": "676"
+  },
+  {
+    "name": "Mayas Cookies",
+    "neighborhood": "San Marcos",
+    "category": "Other",
+    "year": "2015",
+    "description": "#1 Black-owned gourmet vegan cookie company; 2 SD storefronts plus nationwide DTC shipping; founder regularly featured in NBC/JA media",
+    "website": "http://www.mayascookies.com/",
+    "rating": "4.5",
+    "reviews": "57"
+  },
+  {
+    "name": "Trining's Bakery & Cafe",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "description": "Filipino bakery-cafe combo; full kitchen + bakery; 320+ Yelp reviews",
+    "website": "https://www.triningsbakery.com/",
+    "rating": "4.4",
+    "reviews": "170"
+  },
+  {
+    "name": "Dulce Bakery",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "Independent panaderia + custom cake shop combining Mexican pan dulce with personalized celebration cakes",
+    "website": "http://www.bakerysanmarcos.com/",
+    "rating": "3.5",
+    "reviews": "51"
+  },
+  {
+    "name": "Lightbulb Coffee La Mesa",
+    "neighborhood": "La Mesa",
+    "category": "Coffee",
+    "description": "Locally roasted coffee, fresh-daily pastry program, community hub; partners with local SD roasters for signature lattes; second location at SDSU",
+    "website": "https://www.lightbulbcoffee.com/",
+    "rating": "4.3",
+    "reviews": "570"
+  },
+  {
+    "name": "Alhamdani Sweets and Dessert",
+    "neighborhood": "Spring Valley",
+    "category": "Other",
+    "description": "Independent Middle Eastern specialty sweets shop with strong following",
+    "website": "https://www.al-hamdanisweets.com/",
+    "rating": "4.7",
+    "reviews": "607"
+  },
+  {
+    "name": "Lucy's Bakery",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "description": "Specializes in Torta Pierna, Torta Fria and sandwiches; family-owned",
+    "website": "https://lucys-bakery.com/",
+    "rating": "4.3",
+    "reviews": "344"
+  },
+  {
+    "name": "Sugar and Scribe",
+    "neighborhood": "La Jolla",
+    "category": "Bakery",
+    "year": "2010",
+    "description": "Owned by Food Network Best Baker in America champion Chef Maeve Rochford; British/Irish-inspired full-service bakery and brunch restaurant",
+    "website": "https://www.sugarandscribe.com/",
+    "rating": "4.4",
+    "reviews": "1029"
+  },
+  {
+    "name": "McCord's Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "1969",
+    "description": "Family bakery serving San Diego since 1969 with broad pan dulce and pastry mix",
+    "website": "http://www.mccordsbakery.com/",
+    "rating": "4.4",
+    "reviews": "71"
+  },
+  {
+    "name": "Clayton's Bakery & Bistro",
+    "neighborhood": "Coronado",
+    "category": "Bakery",
+    "description": "Upscale Coronado bakery + bistro with executive chef Ira; bakery brand Sweets by C; bistro open daily 7am-7pm",
+    "website": "https://www.claytonsbakeryandbistro.com/",
+    "rating": "4.6",
+    "reviews": "500"
+  },
+  {
+    "name": "Tartine",
+    "neighborhood": "Coronado",
+    "category": "Other",
+    "year": "2001",
+    "description": "Independent European-style bakery/bistro opened 2001 by three local women co-owners; head pastry chef Barbara Massey trained in Paris",
+    "website": "http://tartinecoronado.com/",
+    "rating": "4.4",
+    "reviews": "1191"
+  },
+  {
+    "name": "Villa Nueva Bakery",
+    "neighborhood": "Coronado",
+    "category": "Bakery",
+    "year": "2003",
+    "description": "Family-owned bakery + Mexican cafe in Coronado, run by Serio/Lopez families with the Name family as newer partners; combines fresh-baked pastries with a full Mexican menu",
+    "website": "http://villanuevabakerysd.com/",
+    "rating": "4.3",
+    "reviews": "353"
+  },
+  {
+    "name": "Parfait Paris",
+    "neighborhood": "Carmel Valley",
+    "category": "Other",
+    "description": "Authentic French patisserie",
+    "website": "https://parfaitparis.com/",
+    "rating": "4.3",
+    "reviews": "308"
+  },
+  {
+    "name": "Devil's Dozen Donut Shop",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "website": "http://www.devils-dozen.com/",
+    "rating": "4.3",
+    "reviews": "485"
+  },
+  {
+    "name": "CAKED | Cookies + Brownies",
+    "neighborhood": "Miralani Makers District (Mira Mesa/Miramar)",
+    "category": "Bakery",
+    "description": "Handcrafted soft cookies and oversized brownies with 30+ rotating varieties; popular at SD farmers/night markets",
+    "website": "http://www.caked.love/",
+    "rating": "4.9",
+    "reviews": "259"
+  },
+  {
+    "name": "Lovesong Coffee + Market",
+    "neighborhood": "North Park",
+    "category": "Coffee",
+    "description": "Coffee + market hybrid with strong North Park following",
+    "website": "http://www.lovesongcoffee.com/",
+    "rating": "4.5",
+    "reviews": "383"
+  },
+  {
+    "name": "The Flower Pot Cafe and Bakery",
+    "neighborhood": "La Jolla",
+    "category": "Bakery",
+    "description": "Eclectic art/community-focused La Jolla cafe with in-house roasting, dog/kid friendly, live music",
+    "website": "http://www.flowerpotcafe.org/",
+    "rating": "4.6",
+    "reviews": "300"
+  },
+  {
+    "name": "Hanna's Creamery & Cafe",
+    "neighborhood": "La Jolla (Westfield UTC)",
+    "category": "Bakery",
+    "description": "Family-owned creamery+cafe in Westfield UTC mall \u2014 one of few local independents in that mall",
+    "website": "http://www.hannascreamerycafe.com/",
+    "rating": "4.5",
+    "reviews": "217"
+  },
+  {
+    "name": "Gordy's Bakery and Coffeehouse",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Locally owned Encinitas bakery+coffeehouse; new owners took over in Jan 2022 from founder Gordy",
+    "website": "http://gordysbakery.com/",
+    "rating": "4.4",
+    "reviews": "174"
+  },
+  {
+    "name": "Dolce Aroma Italian Bakery",
+    "neighborhood": "Carlsbad",
+    "category": "Bakery",
+    "description": "Authentic Neapolitan bakery using imported Italian flour and organic ingredients",
+    "website": "http://dolcearoma.org/",
+    "rating": "4.7",
+    "reviews": "158"
+  },
+  {
+    "name": "Champagne Bakery",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Established French bakery cafe with two San Diego locations (Encinitas + Carmel Mountain); 23+ years of operation per customer reviews",
+    "website": "https://champagnebakery.com/",
+    "rating": "4.1",
+    "reviews": "209"
+  },
+  {
+    "name": "Su Pan Bakery Poway",
+    "neighborhood": "Poway",
+    "category": "Bakery",
+    "description": "Traditional Mexican bakery \u2014 multiple SD locations (Poway, El Cajon, San Marcos, UCSD)",
+    "website": "http://www.supanbakery.com/",
+    "rating": "4.3",
+    "reviews": "67"
+  },
+  {
+    "name": "Jessie's Bake Shop",
+    "neighborhood": "Carmel Mountain",
+    "category": "Bakery",
+    "description": "Small neighborhood bakeshop known for friendly owner and free samples; no website",
+    "rating": "4.4",
+    "reviews": "98"
+  },
+  {
+    "name": "The Forum Coffee House",
+    "neighborhood": "Clairemont",
+    "category": "Coffee",
+    "description": "House-roasts coffee on a zero-emission Bellwether roaster and bakes pastries in-house; fits Onefish secondary ICP (cafe with baked goods)",
+    "website": "http://forumcoffees.com/",
+    "rating": "4.5",
+    "reviews": "869"
+  },
+  {
+    "name": "Cakey Bakey",
+    "neighborhood": "Clairemont",
+    "category": "Bakery",
+    "description": "Persian bakery specializing in custom celebration cakes, family-recipe based",
+    "website": "http://cakeybakeysd.com/",
+    "rating": "4.1",
+    "reviews": "58"
+  },
+  {
+    "name": "Sunny Donuts",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "description": "24-hour donut shop with broad donut selection",
+    "rating": "4.5",
+    "reviews": "495"
+  },
+  {
+    "name": "Yiko Yiko",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "year": "2023",
+    "description": "Asian bakery specializing in not-too-sweet Chinese desserts and mini cakes",
+    "rating": "4.5",
+    "reviews": "179"
+  },
+  {
+    "name": "MNGO cafe",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "description": "Mango-themed dessert cafe in Convoy District; very high review volume",
+    "website": "http://www.mngocafe.com/",
+    "rating": "4.4",
+    "reviews": "1070"
+  },
+  {
+    "name": "French Secret Pastry",
+    "neighborhood": "UTC",
+    "category": "Bakery",
+    "description": "Founded by Maya Marashi, graduate of National Superior School of Pastry in France; pre-order operation",
+    "website": "https://frenchsecretpastry.com/",
+    "rating": "4.9",
+    "reviews": "54"
+  },
+  {
+    "name": "Royal Sweets",
+    "neighborhood": "El Cajon",
+    "category": "Dessert",
+    "description": "Wholesale+retail Middle Eastern sweets shop with online ordering already integrated",
+    "website": "https://royalsweets.smartonlineorder.com/",
+    "rating": "4.1",
+    "reviews": "472"
+  },
+  {
+    "name": "City Sweets",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "description": "Independent Middle Eastern dessert shop in Bostonia neighborhood",
+    "website": "http://citysweetssd.com/",
+    "rating": "4.7",
+    "reviews": "100"
+  },
+  {
+    "name": "Kettle On Coast",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Chef David Lay's African-Mediterranean concept; onsite bakery in former Petite Madeline space; 3rd location in The Kettle On group",
+    "website": "https://www.thekettleon.com/",
+    "rating": "4.6",
+    "reviews": "1055"
+  },
+  {
+    "name": "Angela's Eccentric Kitchen",
+    "neighborhood": "Santee",
+    "category": "Bakery",
+    "description": "Owner-operated Santee bakery (formerly Eccentric International Chefs) specializing in artisan sourdough and custom occasion cakes",
+    "website": "http://angelaseccentrickitchen.com/",
+    "rating": "4.7",
+    "reviews": "133"
+  },
+  {
+    "name": "Baklava King",
+    "neighborhood": "Santee",
+    "category": "Bakery",
+    "year": "2002",
+    "description": "Independent halal specialty baklava producer since 2002 with nationwide shipping",
+    "website": "https://www.baklavaking.com/",
+    "rating": "4.9",
+    "reviews": "81"
+  },
+  {
+    "name": "The Crimson Cake",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Custom cake specialist with walk-in counter; books out 2+ weeks for custom orders",
+    "website": "https://www.crimsoncake.com/",
+    "rating": "4.7",
+    "reviews": "109"
+  },
+  {
+    "name": "Le Rendez-Vous French Bakery",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "year": "2006",
+    "description": "Authentic French bakery established 2006 by classically-trained French pastry chef",
+    "website": "http://lerendezvousfrenchbakery.com/",
+    "rating": "4.1",
+    "reviews": "165"
+  },
+  {
+    "name": "S K's Donuts",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Locally-owned Coast Hwy donut shop with strong loyal following; 384+ Google reviews",
+    "rating": "4.8",
+    "reviews": "384"
+  },
+  {
+    "name": "Starbread Bakery",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "year": "1986",
+    "description": "Home of original Senorita Bread since 1986; 2 locations (Chula Vista + Poway)",
+    "rating": "4.6",
+    "reviews": "225"
+  },
+  {
+    "name": "Terzo Bakery & Cafe",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Family-owned bakery and cafe in downtown Chula Vista",
+    "rating": "4.1",
+    "reviews": "231"
+  },
+  {
+    "name": "It's in the Filling!",
+    "neighborhood": "National City",
+    "category": "Bakery",
+    "description": "Pre-order weekly menu model with 48-hour ordering window",
+    "rating": "5",
+    "reviews": "84"
+  },
+  {
+    "name": "La Moreliana",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Family-run Mexican panaderia, 26+ years in Chula Vista (58 years history in Mexico)",
+    "rating": "4.6",
+    "reviews": "223"
+  },
+  {
+    "name": "Canton Bakery by Meta Sweets",
+    "neighborhood": "National City",
+    "category": "Bakery",
+    "description": "Recently changed ownership; cash-only; uses Toast for online ordering",
+    "website": "https://www.toasttab.com/canton-1132-east-plaza-blvd-suite-204/v3",
+    "rating": "4.1",
+    "reviews": "94"
+  },
+  {
+    "name": "Chico's Panaderia",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Mom-and-pop panaderia diversifying into Korean shaved ice",
+    "rating": "4.2",
+    "reviews": "148"
+  },
+  {
+    "name": "Mayra's Bakery",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Independent Mexican bakery + restaurant combo serving authentic pan dulce and Mexican meals",
+    "rating": "4",
+    "reviews": "84"
+  },
+  {
+    "name": "Divo Diva Cafe",
+    "neighborhood": "Hillcrest",
+    "category": "Coffee",
+    "year": "2023",
+    "description": "Owner-operated European-style cafe and wine bar with opera dinner shows; chef-driven Italian menu",
+    "website": "https://www.divodivacafe.com/",
+    "rating": "4.9",
+    "reviews": "385"
+  },
+  {
+    "name": "Revolution Roasters",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Independent in-house coffee roaster + scratch bakery + kitchen with North County (Oceanside + Carlsbad) presence; rotating seasonal program",
+    "website": "http://www.revoroasters.com/",
+    "rating": "4.5",
+    "reviews": "706"
+  },
+  {
+    "name": "Bake and Beach",
+    "neighborhood": "La Mesa",
+    "category": "Bakery",
+    "description": "Organic bakery in La Mesa with varied baked goods menu and 7-day extended hours; ranked in Yelp top 10 La Mesa bakeries",
+    "website": "http://www.bakeandbeach.com/",
+    "rating": "5",
+    "reviews": "4"
+  },
+  {
+    "name": "Pannikin Coffee & Tea",
+    "neighborhood": "Leucadia, Encinitas",
+    "category": "Coffee",
+    "year": "1968",
+    "description": "Family-owned since 1968; roasts coffee and bakes daily for all 4 San Diego locations; Leucadia flagship in historic depot building",
+    "website": "https://pannikincoffeeandtea.com/",
+    "rating": "4.5",
+    "reviews": "1534"
+  },
+  {
+    "name": "Kendall's Kitchen World Kafe",
+    "neighborhood": "Pacific Beach",
+    "category": "Other",
+    "description": "Founder previously built and sold Nothing Bundt Cakes franchises across SD before opening this independent world bakery in Pacific Beach",
+    "website": "https://www.kendalls-kitchen.com/",
+    "rating": "4.7",
+    "reviews": "68"
+  },
+  {
+    "name": "Olive Cafe",
+    "neighborhood": "Mission Beach",
+    "category": "Coffee",
+    "description": "High-volume Mission Beach cafe with affiliated Olive Baking Company supplying pastries",
+    "website": "http://www.olivecafe.biz/",
+    "rating": "4.6",
+    "reviews": "937"
+  },
+  {
+    "name": "Molly's",
+    "neighborhood": "Mission Beach",
+    "category": "Other",
+    "year": "2023",
+    "description": "Elevated made-from-scratch pastry program plus in-house coffee roasting in a high-traffic Mission Beach destination",
+    "website": "https://www.mollysmissionbeach.com/",
+    "rating": "4.5",
+    "reviews": "210"
+  },
+  {
+    "name": "Vinaka Cafe",
+    "neighborhood": "Carlsbad Village",
+    "category": "Coffee",
+    "description": "Independent Carlsbad Village cafe with espresso, sandwiches, and house ice cream sundaes",
+    "website": "http://vinakacafe.net/",
+    "rating": "4.5",
+    "reviews": "460"
+  },
+  {
+    "name": "Milton's",
+    "neighborhood": "Del Mar / Flower Hill",
+    "category": "Bakery",
+    "year": "1995",
+    "description": "Traditional deli since 1995; owners also founded Milton's Baking Company (wholesale bread to retail groceries)",
+    "website": "http://www.miltonsdeli.com/",
+    "rating": "4.3",
+    "reviews": "1630"
+  },
+  {
+    "name": "Stratford Court Cafe",
+    "neighborhood": "Del Mar",
+    "category": "Bakery",
+    "description": "Owner Terry Sonken bakes the pastries herself; cozy neighborhood breakfast spot near the beach",
+    "website": "http://www.stratfordcourtcafe.com/",
+    "rating": "4.5",
+    "reviews": "704"
+  },
+  {
+    "name": "Mostra Coffee",
+    "neighborhood": "Carmel Mountain",
+    "category": "Coffee",
+    "year": "2013",
+    "description": "Filipino-American owned micro coffee roastery, named Roaster of the Year; 3+ San Diego locations",
+    "website": "http://www.mostracoffee.com/",
+    "rating": "4.5",
+    "reviews": "839"
+  },
+  {
+    "name": "R B Donuts",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "description": "Small owner-operated hole-in-the-wall donut shop, owner memorizes regulars, only donut shop in immediate RB area",
+    "rating": "4.7",
+    "reviews": "115"
+  },
+  {
+    "name": "Donut Touch",
+    "neighborhood": "Rancho Bernardo / 4S Ranch",
+    "category": "Bakery",
+    "year": "1989",
+    "description": "Established 1989, award-winning donuts, multi-location (Mira Mesa, Scripps Ranch, 4S Ranch), bakery-cafe format",
+    "website": "http://www.donuttouch.com/",
+    "rating": "4.6",
+    "reviews": "189"
+  },
+  {
+    "name": "Sidnys Bagels & Deli",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "description": "Fresh-baked bagels and breads in-house, NY-style deli with California twist, slices meat to order, 96 health score",
+    "website": "http://sidnysdeli.com/",
+    "rating": "4.5",
+    "reviews": "150"
+  },
+  {
+    "name": "Little Hidden Bakery",
+    "neighborhood": "Rancho Santa Fe",
+    "category": "Bakery",
+    "year": "2025",
+    "description": "New Rancho Santa Fe storefront in Fairbanks Ranch Plaza with daily-baked croissants, sourdough, and sweet rolls",
+    "website": "https://www.littlehiddenbakery.com/",
+    "rating": "4.4",
+    "reviews": "25"
+  },
+  {
+    "name": "Goyo's Bakery",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "Known locally for best tamales and sweet bread; combines bakery with juice bar and tortas",
+    "rating": "4.3",
+    "reviews": "152"
+  },
+  {
+    "name": "Pan Paulitas Mexican Bakery",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "Grab-and-go traditional Mexican bakery; cash-only; daily 5:30am open",
+    "rating": "4.5",
+    "reviews": "48"
+  },
+  {
+    "name": "Nory's Donut & Bakery",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "Self-serve donut concept open 5:30am-7pm daily with friendly owner-operator; reviewers compare favorably to Escondido competitors",
+    "website": "https://norysbakery.com/",
+    "rating": "4.7",
+    "reviews": "195"
+  },
+  {
+    "name": "Christophe Rull Patisserie",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "year": "2025",
+    "description": "Award-winning chef (Netflix Bake Squad, USA Chocolate Master 2021) opened first patisserie mid-2025 in North City San Marcos",
+    "website": "https://www.instagram.com/christopherullpatisserie/",
+    "rating": "4.7",
+    "reviews": "152"
+  },
+  {
+    "name": "Urban Sweet Cafe",
+    "neighborhood": "San Marcos",
+    "category": "Coffee",
+    "description": "Owner-operated family-style cafe remodeled 2023; combines bakery items with full breakfast/lunch service",
+    "website": "http://www.urbansweetcafe.com/",
+    "rating": "4.3",
+    "reviews": "127"
+  },
+  {
+    "name": "Chico's Bakery",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "Mexican panaderia + restaurant combo, daily fresh pan dulce production",
+    "rating": "4.3",
+    "reviews": "107"
+  },
+  {
+    "name": "Filipino Desserts Plus",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "description": "Multi-generational family business with three San Diego County locations (Mira Mesa, National City, Chula Vista)",
+    "website": "https://www.filipinodessertsplus.com/",
+    "rating": "4",
+    "reviews": "25"
+  },
+  {
+    "name": "Pier View Coffee Co",
+    "neighborhood": "Townsite",
+    "category": "Bakery",
+    "description": "Local family-owned cafe with coffee + baked goods + Italian gelato; longstanding Oceanside hangout",
+    "website": "https://www.pierviewcoffeeco.com/",
+    "rating": "4.5",
+    "reviews": "729"
+  },
+  {
+    "name": "Dream Fountain Catering",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2015",
+    "description": "Family-run; expanded from chocolate fountain rental to multi-cuisine dessert + wedding cakes; ~140 catering jobs/year",
+    "website": "https://dfcatering.com/",
+    "rating": "4.2",
+    "reviews": "65"
+  },
+  {
+    "name": "Kababayan Bakery",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "year": "2006",
+    "description": "Authentic Filipino bakery est. 2006; expanded to include hot dishes",
+    "website": "https://www.instagram.com/kababayanbakery/",
+    "rating": "4.3",
+    "reviews": "283"
+  },
+  {
+    "name": "Elevated Coffee & Confections",
+    "neighborhood": "Lemon Grove",
+    "category": "Coffee",
+    "description": "Handmade in-house vegan and gluten-free confections baked fresh daily",
+    "website": "http://elevatedcnc.com/",
+    "rating": "4.9",
+    "reviews": "257"
+  },
+  {
+    "name": "Snoice",
+    "neighborhood": "Paradise Hills",
+    "category": "Other",
+    "description": "Filipino-American dessert shop; SD Reader best caterer finalist",
+    "website": "http://www.snoicesd.com/",
+    "rating": "4.6",
+    "reviews": "679"
+  },
+  {
+    "name": "Sweet Vibe",
+    "neighborhood": "Kearny Mesa / Convoy",
+    "category": "Bakery",
+    "description": "Asian-style desserts and fruit teas in the Convoy district",
+    "website": "http://www.sweetvibesd.com/",
+    "rating": "4.8",
+    "reviews": "381"
+  },
+  {
+    "name": "Friends of Friends",
+    "neighborhood": "",
+    "category": "Other",
+    "year": "2022",
+    "description": "Community cafe and listening bar with in-house pastries and house-roasted coffee in National City",
+    "website": "http://friendsoffriendssd.com/",
+    "rating": "4.8",
+    "reviews": "194"
+  },
+  {
+    "name": "Bread Deluxe Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Family-run Filipino bakery in National City known for pandesal, ube, and hopia",
+    "rating": "4.5",
+    "reviews": "62"
+  },
+  {
+    "name": "Salies Place",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Family-owned Filipino bake shop; owners bought from prior baker after being regular customers",
+    "rating": "4.8",
+    "reviews": "100"
+  },
+  {
+    "name": "The French Oven Scripps Ranch",
+    "neighborhood": "Scripps Ranch",
+    "category": "Bakery",
+    "website": "http://www.thefrenchovenbakery.com/",
+    "rating": "4.7",
+    "reviews": "532"
+  },
+  {
+    "name": "Solunto Restaurant & Bakery",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "website": "http://www.soluntoristoranteandbakery.com/",
+    "rating": "4.2",
+    "reviews": "1564"
+  },
+  {
+    "name": "Pappalecco",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "website": "https://pappalecco.com/",
+    "rating": "4.6",
+    "reviews": "2204"
+  },
+  {
+    "name": "Caffe Italia",
+    "neighborhood": "Little Italy",
+    "category": "Other",
+    "website": "http://caffeitalialittleitaly.com/",
+    "rating": "4.5",
+    "reviews": "873"
+  },
+  {
+    "name": "Glazed Coffee & Creamery",
+    "neighborhood": "Pacific Beach",
+    "category": "Bakery",
+    "website": "https://glazedpb.com/",
+    "rating": "4.4",
+    "reviews": "256"
+  },
+  {
+    "name": "Muse Cheesecakes & Bakery",
+    "neighborhood": "Old Town / Midway",
+    "category": "Bakery",
+    "website": "http://musecheesecakes.us/",
+    "rating": "4.9",
+    "reviews": "72"
+  },
+  {
+    "name": "Pump Coffee",
+    "neighborhood": "Pacific Beach",
+    "category": "Coffee",
+    "website": "http://pumpcoffee.com/",
+    "rating": "4.7",
+    "reviews": "399"
+  },
+  {
+    "name": "Pop Pie Co. Pacific Beach",
+    "neighborhood": "Pacific Beach",
+    "category": "Other",
+    "website": "http://www.poppieco.com/",
+    "rating": "4.8",
+    "reviews": "135"
+  },
+  {
+    "name": "Trident Coffee Pacific Beach",
+    "neighborhood": "Pacific Beach",
+    "category": "Coffee",
+    "website": "http://www.tridentcoffee.com/",
+    "rating": "4.7",
+    "reviews": "386"
+  },
+  {
+    "name": "Nonna + Zucchero",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "website": "http://nonnasd.com/",
+    "rating": "4.4",
+    "reviews": "2637"
+  },
+  {
+    "name": "LA PETITE BAKERY",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "description": "Small-batch bakery on Cedros design district; partners with Joe Coffee",
+    "website": "http://lapetitebakery.us/",
+    "rating": "5",
+    "reviews": "15"
+  },
+  {
+    "name": "Carson's Cookie Co.",
+    "neighborhood": "Carmel Valley",
+    "category": "Other",
+    "description": "San Diego's only organic cookie shop; reduced sugar, no seed oils, locally farmed produce/eggs",
+    "website": "https://www.carsonscookieco.com/",
+    "rating": "5",
+    "reviews": "113"
+  },
+  {
+    "name": "Creperie Antoinette",
+    "neighborhood": "Pacific Beach",
+    "category": "Other",
+    "description": "French-themed creperie with sweet/savory crepes plus espresso, gelato, macarons; open daily 8a-10p",
+    "website": "https://creperieantoinette.wixsite.com/creperie-antoinette",
+    "rating": "4.4",
+    "reviews": "77"
+  },
+  {
+    "name": "Coco & Jules Cookies",
+    "neighborhood": "Normal Heights",
+    "category": "Bakery",
+    "description": "Naturally gluten-free and nut-free bakery with vegan options; Adams Ave neighborhood favorite",
+    "website": "https://cocojulescookies.com/",
+    "rating": "5",
+    "reviews": "166"
+  },
+  {
+    "name": "Little While",
+    "neighborhood": "Normal Heights",
+    "category": "Other",
+    "year": "2025",
+    "description": "New coffee roastery + pastry shop from the Pop Pie / Stella Jean's team with veteran pastry talent",
+    "website": "https://www.littlewhilesd.com/",
+    "rating": "4.7",
+    "reviews": "73"
+  },
+  {
+    "name": "La Jolla Baking Co.",
+    "neighborhood": "Sorrento Valley",
+    "category": "Bakery",
+    "description": "B2B artisan bread bakery selling to chefs and restaurants; statewide Restaurant Depot distribution",
+    "website": "http://lajollabaking.com/",
+    "rating": "4.5",
+    "reviews": "40"
+  },
+  {
+    "name": "Lofty Coffee Co.",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "year": "2011",
+    "description": "Locally owned coffee roaster + scratch bakery + cafe operator; multiple SD locations (Encinitas, Solana Beach, Little Italy + Roasting Works)",
+    "website": "https://loftycoffee.com/",
+    "rating": "4.6",
+    "reviews": "356"
+  },
+  {
+    "name": "Michele Coulon Dessertier",
+    "neighborhood": "La Jolla",
+    "category": "Bakery",
+    "description": "17+ year boutique dessertier; family operation including son Nathan, sister, brother-in-law; ties to Belgian Lion restaurant",
+    "website": "https://dessertier.com/",
+    "rating": "4.6",
+    "reviews": "72"
+  },
+  {
+    "name": "Elite Baking",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "description": "Scratch-baked premium custom cakes; residential address suggests home-based or very small kitchen",
+    "website": "http://elitebaking.com/",
+    "rating": "4.9",
+    "reviews": "84"
+  },
+  {
+    "name": "Tasty Bakery",
+    "neighborhood": "Kearny Mesa",
+    "category": "Bakery",
+    "description": "Small Asian bakery in Convoy district; phone/walk-in cake orders, no website",
+    "rating": "4.6",
+    "reviews": "86"
+  },
+  {
+    "name": "cupCAKES a la Yola",
+    "neighborhood": "Mission Gorge",
+    "category": "Bakery",
+    "year": "2015",
+    "description": "Family-owned cupcake bakery since 2015 with two San Diego locations (also Poway)",
+    "website": "https://www.cupcakesalayola.com/",
+    "rating": "4.4",
+    "reviews": "103"
+  },
+  {
+    "name": "Lang's Bakery",
+    "neighborhood": "El Cajon",
+    "category": "Bakery",
+    "year": "1984",
+    "description": "Founded 1984 to serve San Diego Jewish community with kosher baked goods; integrated into PF Bakeries family in 2013",
+    "website": "https://www.pfbakeries.com/",
+    "rating": "4.3",
+    "reviews": "10"
+  },
+  {
+    "name": "The Cupcake Store",
+    "neighborhood": "Santee",
+    "category": "Bakery",
+    "description": "Father/Daughter run cupcake bakery committed to fresh cupcakes and cakes",
+    "website": "http://cupcakestorebirthdayclub.com/",
+    "rating": "4.6",
+    "reviews": "175"
+  },
+  {
+    "name": "Finjan Shop & Cafe",
+    "neighborhood": "El Cajon",
+    "category": "Coffee",
+    "description": "Owner-operated Middle Eastern cafe in Parkway Plaza known for Turkish sweets and cardamom coffee",
+    "website": "https://www.finjancafeshop.com/",
+    "rating": "4.9",
+    "reviews": "71"
+  },
+  {
+    "name": "Tyne Coffee Co.",
+    "neighborhood": "El Cajon",
+    "category": "Coffee",
+    "description": "Owner-operated specialty coffee shop with breakfast/lunch; pastry selection limited",
+    "website": "https://www.tynecoffeeco.com/",
+    "rating": "4.9",
+    "reviews": "250"
+  },
+  {
+    "name": "Bagatelle French Bakery",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "description": "Owner-operated French bakery; offers wholesale and fundraising orders",
+    "website": "http://bagatellefrenchbakery.com/",
+    "rating": "4.8",
+    "reviews": "16"
+  },
+  {
+    "name": "The Cakery Cafe",
+    "neighborhood": "Mira Mesa / Trade St",
+    "category": "Bakery",
+    "description": "Bakery-cafe focused on signature cheesecakes plus specialty drinks and sandwiches",
+    "website": "http://www.thecakerysd.com/",
+    "rating": "4.7",
+    "reviews": "37"
+  },
+  {
+    "name": "Lambers Chinese Bakery",
+    "neighborhood": "Chula Vista (Otay)",
+    "category": "Bakery",
+    "description": "30+ years same-owner Chinese bakery in Chula Vista; signature strawberry cake",
+    "website": "http://lambersbakery.com/",
+    "rating": "4.3",
+    "reviews": "78"
+  },
+  {
+    "name": "Lunch Box Cafe & Deli",
+    "neighborhood": "La Mesa",
+    "category": "Coffee",
+    "description": "Family-run cafe with fresh-baked muffins and home-cooked breakfast/lunch",
+    "website": "http://www.thelunchboxcafe.com/",
+    "rating": "4.7",
+    "reviews": "464"
+  },
+  {
+    "name": "1022 Cafe & Gelateria",
+    "neighborhood": "Oceanside",
+    "category": "Coffee",
+    "description": "Two San Diego locals making homemade gelato + natural fair-trade coffee",
+    "website": "http://1022gelato.com/",
+    "rating": "4.9",
+    "reviews": "591"
+  },
+  {
+    "name": "Cake",
+    "neighborhood": "Mission Hills",
+    "category": "Bakery",
+    "description": "San Diego wedding cake specialist with strong word-of-mouth reputation",
+    "website": "http://fabcakes.com/",
+    "rating": "4.6",
+    "reviews": "69"
+  },
+  {
+    "name": "Plantology Cafe",
+    "neighborhood": "Oceanside",
+    "category": "Bakery",
+    "description": "Plant-based cafe in Oceanside Coast Hwy corridor; Joe Coffee partner; combined retail (plants) + cafe model",
+    "rating": "4.8",
+    "reviews": "145"
+  },
+  {
+    "name": "Mama's Boy Cookies",
+    "neighborhood": "Oceanside",
+    "category": "Other",
+    "description": "Independent small-batch cookie bakery with event/calendar pop-up model",
+    "website": "https://www.mamasboycookies.com/",
+    "rating": "4.7",
+    "reviews": "74"
+  },
+  {
+    "name": "Communal Coffee",
+    "neighborhood": "Oceanside",
+    "category": "Coffee",
+    "description": "Anchor of Tremont Collective; multi-concept space combining cafe, florist, and curated retail; multiple SD locations",
+    "website": "https://www.communalcoffee.com/",
+    "rating": "4.4",
+    "reviews": "443"
+  },
+  {
+    "name": "102 Scone Co.",
+    "neighborhood": "La Jolla",
+    "category": "Other",
+    "description": "Specialty scone-focused bakery in La Jolla Village; Instagram-driven small-batch operation",
+    "website": "https://www.instagram.com/102sconeco",
+    "rating": "4.7",
+    "reviews": "67"
+  },
+  {
+    "name": "Anastasian Pastries",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Handcrafted Armenian pastries made fresh to order using time-honored family recipes; offers catering for corporate events and fairs",
+    "website": "https://www.anastasianpastries.com/order-fresh-handcrafted-pastries-online",
+    "rating": "5",
+    "reviews": "4"
+  },
+  {
+    "name": "SD Cookie Guru",
+    "neighborhood": "Pacific Beach",
+    "category": "Other",
+    "description": "Bespoke hand-decorated sugar cookies crafted in a licensed Pacific Beach kitchen for celebrations and corporate catering; DBA Lunch Guru",
+    "website": "https://cookieguru.shop/",
+    "rating": "5",
+    "reviews": "131"
+  },
+  {
+    "name": "SugarBears Sweet Provisions",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "year": "2021",
+    "description": "Owner-operated dessert shop with custom cake program; two locations (Encinitas + Gaslamp); signature branded items",
+    "website": "https://www.sugarbears.net/",
+    "rating": "4.8",
+    "reviews": "32"
+  },
+  {
+    "name": "Cafe Dawny",
+    "neighborhood": "Carlsbad Village",
+    "category": "Coffee",
+    "description": "Family-run cafe bringing New Zealand baking tradition to Carlsbad Village",
+    "rating": "5",
+    "reviews": "52"
+  },
+  {
+    "name": "The French Oven Del Mar",
+    "neighborhood": "Del Mar / Carmel Valley",
+    "category": "Bakery",
+    "year": "2025",
+    "description": "5th-generation French baker Yves Fournier (from a village in the French Alps); Del Mar is the 2nd location, expanded from the Scripps Ranch original",
+    "website": "http://www.thefrenchovenbakery.com/",
+    "rating": "4.5",
+    "reviews": "4"
+  },
+  {
+    "name": "Mielimon Bakery",
+    "neighborhood": "Rancho Bernardo / Carmel Mountain",
+    "category": "Bakery",
+    "description": "Small charming bakeshop specializing in breakfast pastries, custom cakes, and desserts",
+    "website": "http://mielimonbakery.com/",
+    "rating": "4.8",
+    "reviews": "11"
+  },
+  {
+    "name": "Buttery Bakes",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "Home-based custom cake operation, no storefront; gluten-free upon request; DM-based bookings",
+    "website": "http://www.instagram.com/butterybakes.sd",
+    "rating": "5",
+    "reviews": "81"
+  },
+  {
+    "name": "James Coffee Co.",
+    "neighborhood": "Carmel Mountain Ranch",
+    "category": "Coffee",
+    "year": "2014",
+    "description": "Independent veteran-owned roaster, 5 San Diego County locations; bakes pastries from scratch",
+    "website": "http://www.jamescoffeeco.com/",
+    "rating": "4.4",
+    "reviews": "84"
+  },
+  {
+    "name": "Elmisa Cafe Rancho Bernardo",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Coffee",
+    "year": "2020",
+    "description": "Family-owned cafe (named after owners daughters), high health score, 370 reviews",
+    "website": "http://elmisacafe.com/",
+    "rating": "4.7",
+    "reviews": "370"
+  },
+  {
+    "name": "The Darling Dough Co.",
+    "neighborhood": "Poway",
+    "category": "Bakery",
+    "description": "Organic sourdough microbakery in Poway specializing in naturally leavened, slow-fermented loaves",
+    "rating": "5",
+    "reviews": "15"
+  },
+  {
+    "name": "SD Custom Cakes",
+    "neighborhood": "Escondido",
+    "category": "Bakery",
+    "description": "You dream it, we bake it' - made-to-order custom cake shop with social-led ordering",
+    "website": "http://sdcustomcakes.com/",
+    "rating": "4.4",
+    "reviews": "15"
+  },
+  {
+    "name": "Dolce Italia Desserts, Inc.",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "By-appointment artisan Italian patisserie specializing in custom cakes (chef Salvo)",
+    "website": "http://dolceitaliausa.com/",
+    "rating": "4.7",
+    "reviews": "25"
+  },
+  {
+    "name": "Cookies Tonight",
+    "neighborhood": "Mission Valley",
+    "category": "Bakery",
+    "description": "Small family-owned delivery bakery specializing in custom logo cookies for businesses and events",
+    "website": "http://www.cookiestonight.com/",
+    "rating": "5",
+    "reviews": "43"
+  },
+  {
+    "name": "The Cake Korner",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "description": "Two locations (Artesia, San Diego); focus on quality cake ingredients",
+    "website": "http://www.cakekorner.com/",
+    "rating": "3.9",
+    "reviews": "176"
+  },
+  {
+    "name": "Su Pan Bakery",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "Family-owned, multi-generational Mexican bakers from Tlaxcala; 424 reviews",
+    "website": "https://supanbakery.com/",
+    "rating": "4.3",
+    "reviews": "424"
+  },
+  {
+    "name": "Sunny Scoops",
+    "neighborhood": "Carmel Mountain",
+    "category": "Dessert",
+    "year": "2022",
+    "description": "Sister-owned, opened 2022; close to Onefish office (3.5 mi)",
+    "website": "http://www.sunnyscoopsicecream.com/",
+    "rating": "4.7",
+    "reviews": "110"
+  },
+  {
+    "name": "Mili's Sweets",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "year": "2010",
+    "description": "Dessert catering since 2010; commercial kitchen; preferred wedding vendor",
+    "website": "https://www.milissweets.com/",
+    "rating": "5",
+    "reviews": "20"
+  },
+  {
+    "name": "Blend & Bite Cafe",
+    "neighborhood": "Poway",
+    "category": "Coffee",
+    "description": "Locally owned Poway cafe offering fresh smoothies, juices, specialty coffee, and freshly baked pastries",
+    "rating": "4.9",
+    "reviews": "35"
+  },
+  {
+    "name": "All Things Ube Desserts",
+    "neighborhood": "Miramar",
+    "category": "Bakery",
+    "year": "2018",
+    "description": "San Diego's first all-exclusive ube dessert company; known for ube knafeh bars",
+    "website": "https://allthingsubedesserts.com/",
+    "rating": "4.5",
+    "reviews": "56"
+  },
+  {
+    "name": "EscoGelato",
+    "neighborhood": "Downtown Escondido",
+    "category": "Dessert",
+    "description": "Indie downtown Escondido cafe rotating 18 fresh gelato flavors daily; deeply community-rooted",
+    "website": "http://www.escogelato.com/",
+    "rating": "4.8",
+    "reviews": "984"
+  },
+  {
+    "name": "Bakery San Jorge",
+    "neighborhood": "San Marcos",
+    "category": "Bakery",
+    "description": "Traditional Mexican panaderia open 6am-8:30pm with full daily pan-dulce production",
+    "rating": "4",
+    "reviews": "3"
+  },
+  {
+    "name": "CASA de Flour Sourdough",
+    "neighborhood": "Scripps Ranch",
+    "category": "Other",
+    "description": "Sourdough-focused specialty bakery in Scripps Ranch \u2014 new entrant with perfect 5.0 rating but limited public footprint",
+    "rating": "5",
+    "reviews": "10"
+  },
+  {
+    "name": "Paris Sandwiches",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "description": "Operated under Paris Bakery / Le Chef Bakery group; supplies banh mi bread wholesale to many San Diego shops",
+    "website": "https://www.parissandwichessd.com/",
+    "rating": "4.7",
+    "reviews": "156"
+  },
+  {
+    "name": "Extraordinary Banana Pudding",
+    "neighborhood": "La Mesa",
+    "category": "Other",
+    "year": "2020",
+    "description": "Family recipe single-product specialty; second location in Long Beach (2021); production kitchen in Scripps Ranch",
+    "website": "http://extraordinarybananapudding.com/",
+    "rating": "4.6",
+    "reviews": "494"
+  },
+  {
+    "name": "Suzette",
+    "neighborhood": "Chula Vista",
+    "category": "Other",
+    "description": "New French breakfast/brunch spot in Chula Vista with kitchen led by Omar Armas and Marce Hisaki",
+    "rating": "4.7",
+    "reviews": "97"
+  },
+  {
+    "name": "Sylvia's Cakes",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "year": "2006",
+    "description": "Established 2006; 20+ years experience; specializes in custom and fondant cakes for milestone events",
+    "website": "http://www.sylviascakes.net/",
+    "rating": "4.8",
+    "reviews": "76"
+  },
+  {
+    "name": "PF Bakeries LLC",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2013",
+    "description": "Wholesale-only pita bakery producing fresh pita daily for foodservice",
+    "website": "http://www.pfbakeries.com/",
+    "rating": "4",
+    "reviews": "1"
+  },
+  {
+    "name": "Deleitte",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Custom-designed cakes for events",
+    "website": "http://www.fb.com/DeleittebyLili",
+    "rating": "4.8",
+    "reviews": "26"
+  },
+  {
+    "name": "Love & Bake",
+    "neighborhood": "South Encanto",
+    "category": "Bakery",
+    "year": "2018",
+    "description": "Black woman-owned bakery specializing in nostalgic family-tradition desserts",
+    "website": "http://www.loveandbake.com/",
+    "rating": "5",
+    "reviews": "44"
+  },
+  {
+    "name": "Gladly Coffee",
+    "neighborhood": "Casa de Oro, Spring Valley",
+    "category": "Coffee",
+    "description": "Drive-thru craft coffee and kitchen with breakfast/lunch menu",
+    "website": "http://gladlycoffee.com/menu",
+    "rating": "4.7",
+    "reviews": "649"
+  },
+  {
+    "name": "Lemon Grove Coffee",
+    "neighborhood": "Lemon Grove",
+    "category": "Coffee",
+    "description": "Women & family owned; sister shop to Clairemont Coffee; community-focused coffee house",
+    "website": "https://lemongrovecoffee.com/",
+    "rating": "4.7",
+    "reviews": "315"
+  },
+  {
+    "name": "Cafe Amor",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "description": "Custom buttercream and ice cream cakes plus breakfast service in Spring Valley",
+    "rating": "4.6",
+    "reviews": "106"
+  },
+  {
+    "name": "Sara's Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Quaint Spring Valley bakery with cake focus and diverse baked goods",
+    "rating": "4.7",
+    "reviews": "38"
+  },
+  {
+    "name": "Come Back Coffee Co.",
+    "neighborhood": "",
+    "category": "Coffee",
+    "description": "Neighborhood La Mesa coffee company with house-made syrups and breakfast pastries",
+    "website": "https://comebackcoffee.co/",
+    "rating": "4.8",
+    "reviews": "42"
+  },
+  {
+    "name": "Clayton's Coffee Shop",
+    "neighborhood": "Coronado",
+    "category": "Coffee",
+    "description": "Historical Coronado landmark diner with original horseshoe counter and jukeboxes; serves house-made pies but bakery output is secondary to diner fare",
+    "website": "https://www.claytonscoffeeshop.com/",
+    "rating": "4.5",
+    "reviews": "2705"
+  },
+  {
+    "name": "Valerio's Bake Shop",
+    "neighborhood": "National City",
+    "category": "Other",
+    "year": "1988",
+    "description": "Established 1988 Filipino bakery; pan de sal won a major baking competition; multi-location SoCal operation",
+    "website": "https://valeriosusa.com/",
+    "rating": "4.7",
+    "reviews": "224"
+  },
+  {
+    "name": "Valerio's 1979",
+    "neighborhood": "National City",
+    "category": "Bakery",
+    "year": "1979",
+    "description": "Original Valerio's City Bakery founded 1979 by Jaime 'Jimmy' Redondo Valerio and Gloria Valerio; one of San Diego's oldest Filipino bakeries",
+    "website": "https://valerios.com/",
+    "rating": "4.4",
+    "reviews": "296"
+  },
+  {
+    "name": "Michi Michi Baking Collective",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Parisienne Gourmandises",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Ortiz Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Independent Mexican panaderia (full bakery: breads, pan dulce, pastries, cakes); Yelp health score 96/100",
+    "rating": "3.8",
+    "reviews": "38"
+  },
+  {
+    "name": "Su Pan Bakery Escondido",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Mexican panaderia with fresh-daily made-to-order breads, pastries, cakes and pies; part of small local Su Pan chain",
+    "website": "https://www.supanbakery.com/",
+    "rating": "5",
+    "reviews": "1"
+  },
+  {
+    "name": "La Provence Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Family-owned wholesale artisan bakery (11-50 employees), 25+ years supplying Southern California",
+    "website": "http://www.laprovenceinc.com/",
+    "rating": "3.7",
+    "reviews": "15"
+  },
+  {
+    "name": "MOTW Coffee and Pastries",
+    "neighborhood": "",
+    "category": "Coffee",
+    "year": "2021",
+    "description": "Specialty coffee shop with international/Arabic pastries; grew from the 'Muslims of the World' Instagram initiative",
+    "website": "https://motw.coffee/",
+    "rating": "4.9",
+    "reviews": "96"
+  },
+  {
+    "name": "El Cajon Bistro & Bakery-Bistro",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2013",
+    "description": "Family- and locally-owned bistro + bakery established 2013; very high review volume",
+    "website": "https://el-cajon-bistro-bakery-bistro.eatat.us/",
+    "rating": "4.5",
+    "reviews": "760"
+  },
+  {
+    "name": "Lulu's Buns Wholesale Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Independent artisanal wholesale bakery supplying restaurants, cafes and catering",
+    "website": "http://lulusbuns.com/",
+    "rating": "4.6",
+    "reviews": "20"
+  },
+  {
+    "name": "Memo's Bagel Caf\u00e9",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Family-owned caf\u00e9 baking bagels fresh in small batches throughout the day",
+    "website": "https://order.online/business/memos-bagel-cafe-131189",
+    "rating": "4.3",
+    "reviews": "236"
+  },
+  {
+    "name": "Julie's Desserts & Bakery",
+    "neighborhood": "Mira Mesa",
+    "category": "Bakery",
+    "description": "Independent Vietnamese storefront bakery/dessert shop in Mira Mesa; offers delivery and takeout",
+    "rating": "5",
+    "reviews": "5"
+  },
+  {
+    "name": "Blackmarket Bakery",
+    "neighborhood": "North Park",
+    "category": "Bakery"
+  },
+  {
+    "name": "Mitri's Delights",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "The Worldly Whisk",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "MRKT Space",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Solomon Bagels & Donuts",
+    "neighborhood": "North Park",
+    "category": "Bakery"
+  },
+  {
+    "name": "Donuts Plus",
+    "neighborhood": "City Heights",
+    "category": "Bakery"
+  },
+  {
+    "name": "La Clochette Du Coin",
+    "neighborhood": "Pacific Beach",
+    "category": "Other"
+  },
+  {
+    "name": "The Mini Donut Company",
+    "neighborhood": "",
+    "category": "Bakery"
+  },
+  {
+    "name": "Big City Bagels",
+    "neighborhood": "",
+    "category": "Bakery"
+  },
+  {
+    "name": "Donut Bros",
+    "neighborhood": "",
+    "category": "Bakery"
+  },
+  {
+    "name": "The Cravory Cookies",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Bread & Cie Wholesale",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "1994",
+    "description": "Rustic European stone-hearth artisan bakery; bakes fresh daily 364 days/year and wholesales bread & pastries to 150+ top San Diego restaurants, hotels, and markets",
+    "website": "https://breadandcie.com/wholesale-department/",
+    "rating": "4.6",
+    "reviews": "27"
+  },
+  {
+    "name": "Kaelin's Market",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "1958",
+    "description": "Family-owned since 1958; first supermarket in El Cajon; popular community in-house bakery and deli",
+    "website": "http://www.kaelinsmarket.com/",
+    "rating": "4.4",
+    "reviews": "2638"
+  },
+  {
+    "name": "Miss Donut",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "year": "1993",
+    "description": "Family-owned since 1993; specializes in fresh-made donuts and croissants",
+    "rating": "4.7",
+    "reviews": "159"
+  },
+  {
+    "name": "SINTA",
+    "neighborhood": "Chula Vista (Village of Escaya)",
+    "category": "Bakery",
+    "description": "New Filipino-owned bakery & caf\u00e9 in the Village of Escaya offering Filipino breads, pastries and coffee",
+    "website": "https://www.sintaorchid.com/",
+    "rating": "4.7",
+    "reviews": "58"
+  },
+  {
+    "name": "Tus Chefs Favoritas",
+    "neighborhood": "Chula Vista (Eastlake / Proctor Valley)",
+    "category": "Bakery",
+    "year": "2025",
+    "description": "Mexican panader\u00eda known for conchas and pan dulce (\"conchas to rival donuts\" \u2014 San Diego Reader)",
+    "website": "https://tuschefsfavoritas.square.site/",
+    "rating": "4.9",
+    "reviews": "27"
+  },
+  {
+    "name": "Con Pane Rustic Breads & Cafe",
+    "neighborhood": "Liberty Station / Point Loma",
+    "category": "Bakery",
+    "year": "1999",
+    "description": "From-scratch artisan breads baked fresh daily in a ten-ton stone deck oven; 4,000 sq ft Liberty Station bakery-cafe.",
+    "website": "https://www.conpanesd.com/",
+    "rating": "4.6",
+    "reviews": "1197"
+  },
+  {
+    "name": "HINAR Dessert Bar & Caf\u00e9",
+    "neighborhood": "East Village",
+    "category": "Bakery",
+    "description": "Kurdish-owned dessert bar & cafe with a large following (32K IG); second location in Scripps Ranch.",
+    "rating": "4.6",
+    "reviews": "700"
+  },
+  {
+    "name": "Trident Coffee Coronado",
+    "neighborhood": "Coronado",
+    "category": "Bakery",
+    "year": "2017",
+    "description": "Veteran-owned, family-operated nitro cold-brew taproom with an in-house keto & gluten-free bakery.",
+    "website": "http://www.tridentcoffee.com/",
+    "rating": "4.8",
+    "reviews": "471"
+  },
+  {
+    "name": "Stir It Up CoffeeHouse & Cafe",
+    "neighborhood": "Spring Valley",
+    "category": "Bakery",
+    "description": "Independent community coffeehouse & cafe, 4.9 stars over 244 reviews",
+    "website": "https://stiritupcoffeeshopspringvalley.toast.site/order/stir-it-up-coffeeshop-spring-valley-10010-campo-road",
+    "rating": "4.9",
+    "reviews": "244"
+  },
+  {
+    "name": "Trining's Bakery & Cafe National City",
+    "neighborhood": "National City",
+    "category": "Bakery",
+    "description": "Family-owned Filipino bakery & cafe with full production kitchen; part of small local Trining's group",
+    "rating": "4.5",
+    "reviews": "66"
+  },
+  {
+    "name": "skybound coffee + dessert lounge",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Craft coffee + dessert lounge; coffee roasted by Cafe Virtuoso; in-case pastries, cake and gelato",
+    "website": "http://skyboundcoffeedessert.com/",
+    "rating": "4.3",
+    "reviews": "378"
+  },
+  {
+    "name": "Miss Donuts",
+    "neighborhood": "Lemon Grove",
+    "category": "Bakery",
+    "description": "Independent 24-hour donut shop with full espresso bar and 12-table seating in historic Lemon Grove district",
+    "rating": "4.2",
+    "reviews": "326"
+  },
+  {
+    "name": "Suspiros Cakes Chula Vista",
+    "neighborhood": "Chula Vista",
+    "category": "Bakery",
+    "description": "Branch of a large Mexico-based cake company now operating independently in California; wide cake flavor menu",
+    "website": "https://suspiroscakes.com/",
+    "rating": "4.7",
+    "reviews": "79"
+  },
+  {
+    "name": "The Coop | Bakehouse & Pantry",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "description": "Family-owned, fully dedicated gluten-free bakehouse cafe with a full pantry section; regarded as top-tier by celiac community",
+    "website": "http://gfbcoop.com/",
+    "rating": "4.7",
+    "reviews": "61"
+  },
+  {
+    "name": "Solana Sumptuous Cookies",
+    "neighborhood": "Solana Beach",
+    "category": "Other",
+    "description": "Boutique dessert shop that ships cookies nationwide; strong Instagram following (~20K)",
+    "website": "http://www.sumptuouscookies.com/",
+    "rating": "4.5",
+    "reviews": "143"
+  },
+  {
+    "name": "Claire's on Cedros",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "description": "Long-running Solana Beach institution; owner-operated cafe & bakery with locally sourced ingredients and very high review volume",
+    "website": "http://clairesoncedros.com/",
+    "rating": "4.6",
+    "reviews": "1286"
+  },
+  {
+    "name": "Claire's Too",
+    "neighborhood": "Solana Beach",
+    "category": "Other",
+    "description": "Second, smaller-scale concept location run by the Claire's on Cedros team",
+    "website": "https://www.clairesoncedros.com/clairestoo",
+    "rating": "4.1",
+    "reviews": "86"
+  },
+  {
+    "name": "Martinez bakery",
+    "neighborhood": "Vista",
+    "category": "Bakery",
+    "description": "Family-run Mexican panaderia known for tamales oaxaque\u00f1os and fresh pan dulce",
+    "website": "https://www.facebook.com/p/Martinez-Bakery-100095153266680/",
+    "rating": "4.6",
+    "reviews": "12"
+  },
+  {
+    "name": "The Batter Up Bakery",
+    "neighborhood": "Temecula",
+    "category": "Bakery",
+    "description": "Family business founded by Lisa & Jim Kammert, inspired by raising an autistic son; known for elaborate wedding cakes",
+    "website": "https://batterupbakery.co/",
+    "rating": "4.1",
+    "reviews": "392"
+  },
+  {
+    "name": "Enchanted Sweets and Treats",
+    "neighborhood": "Rancho Bernardo",
+    "category": "Bakery",
+    "description": "5.0-rated custom cake shop only 4.5mi from the Onefish office",
+    "website": "http://enchantedsweets.myshopify.com/",
+    "rating": "5",
+    "reviews": "20"
+  },
+  {
+    "name": "Lemon Bar Bakery",
+    "neighborhood": "Temecula",
+    "category": "Bakery",
+    "description": "Counter-service bakery known for signature lemon bars and custom cake orders",
+    "website": "http://lemonbarbakery.com/",
+    "rating": "4.8",
+    "reviews": "166"
+  },
+  {
+    "name": "1914 Bakery",
+    "neighborhood": "Temecula",
+    "category": "Bakery",
+    "year": "1914 (Temecula location since 2019)",
+    "description": "4th-generation Italian family bakery (est. 1914) relocated from NY, cakes/pastries/gelato",
+    "website": "http://www.1914bakery.com/",
+    "rating": "4.6",
+    "reviews": "88"
+  },
+  {
+    "name": "Adonai Desserts and More",
+    "neighborhood": "Temecula",
+    "category": "Bakery",
+    "year": "2018",
+    "description": "Christian-values family bakery specializing in custom cakes and event desserts",
+    "website": "http://www.adonaidessertsandmore.com/",
+    "rating": "5",
+    "reviews": "85"
+  },
+  {
+    "name": "Proper Bakery + Cafe",
+    "neighborhood": "Murrieta",
+    "category": "Bakery",
+    "description": "Family-owned bakery-cafe serving fresh baked pastries alongside breakfast/sandwiches daily",
+    "rating": "4.9",
+    "reviews": "72"
+  },
+  {
+    "name": "Shoreside Bakery",
+    "neighborhood": "Downtown San Diego (Cortez Hill)",
+    "category": "Bakery",
+    "description": "Family-owned artisan sourdough bakery + full barista bar; custom cake orders, catering, and private events",
+    "website": "https://shoresidebakery.com/",
+    "rating": "4.8",
+    "reviews": "127"
+  },
+  {
+    "name": "Relic Bakery & Kitchen",
+    "neighborhood": "East Village",
+    "category": "Bakery",
+    "year": "2022 (as pop-up; brick-and-mortar opened Oct 2025)",
+    "description": "Grew from a 2022 weekly pop-up (22,500+ IG followers) that supplied up to 15 coffee shop wholesale accounts, into East Village's first brick-and-mortar (opened Oct 2025); scratch-made, seasonal, from-scratch production model",
+    "website": "https://relicbakery.com/",
+    "rating": "4.7",
+    "reviews": "263"
+  },
+  {
+    "name": "Mama's Mediterranean Kitchen",
+    "neighborhood": "North Park / El Cajon Blvd",
+    "category": "Bakery",
+    "year": "1988",
+    "description": "Longtime (est. 1988) family-owned Lebanese spot, recently rebranded from \"Mama's Bakery\" to \"Mama's Mediterranean Kitchen\" to clarify it's a full restaurant/deli, not a dessert bakery \u2014 in-house Sajj bread production remains core",
+    "website": "http://mamas-bakery.com/",
+    "rating": "4.4",
+    "reviews": "785"
+  },
+  {
+    "name": "The Crafted Scone",
+    "neighborhood": "Temecula",
+    "category": "Other",
+    "description": "Independent 3-location boutique scone & coffee bakeshop (Temecula x2 + Murrieta) with a wholesale scone program",
+    "website": "http://thecraftedscone.com/",
+    "rating": "4.3",
+    "reviews": "140"
+  },
+  {
+    "name": "Sierra's Baking Corner",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Allergy-friendly cottage bakery, made from scratch, owner-operated",
+    "website": "https://sierrasbakingcorner.com/",
+    "rating": "5",
+    "reviews": "19"
+  },
+  {
+    "name": "Great Harvest Bread Co.",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Independently-owned Great Harvest 'Freedom Franchise' baking fresh-milled whole grain bread by hand every morning",
+    "website": "http://www.greatharvesttemecula.com/",
+    "rating": "4.7",
+    "reviews": "493"
+  },
+  {
+    "name": "Incredible Cheesecake Company",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "1981",
+    "description": "Family-owned San Diego cheesecake specialist since 1981",
+    "website": "http://theincrediblecheesecakeco.com/",
+    "rating": "4.6",
+    "reviews": "321"
+  },
+  {
+    "name": "Crafted Coastal Bakery",
+    "neighborhood": "",
+    "category": "Bakery",
+    "description": "Family-run artisan bread bakery focused on nutritional quality, tagline Raised By The Coast",
+    "website": "https://craftedcoastal.com/",
+    "rating": "5",
+    "reviews": "39"
+  },
+  {
+    "name": "Atelier Manna",
+    "neighborhood": "",
+    "category": "Other",
+    "description": "Chef-owned modern-day atelier cafe; Michelin Guide Bib Gourmand 2025",
+    "website": "https://www.atelier-manna.com/",
+    "rating": "4.8",
+    "reviews": "291"
+  },
+  {
+    "name": "Sweet Rosemary",
+    "neighborhood": "Carlsbad",
+    "category": "Bakery",
+    "description": "Independent Swedish/European dessert lounge with themed tea events (e.g. Harry Potter Tea and Trivia)",
+    "website": "https://www.sweetrosemarycarlsbad.com/",
+    "rating": "4.6",
+    "reviews": "18"
+  },
+  {
+    "name": "Jewel Hospitality (Puesto/Marisi/Roma Norte/Ikaria)",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Alan Adler",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Isi Lombrozo",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "The Admiral at NTC / Mister A\u2019s",
+    "neighborhood": "SD (Pt Loma)",
+    "category": "Other"
+  },
+  {
+    "name": "Trust Restaurant Group",
+    "neighborhood": "SD (North Park)",
+    "category": "Restaurant"
+  },
+  {
+    "name": "Dirty Birds",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Adam Jacoby",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "CH Projects",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Cowboy Star team (She Rode West)",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Jimenez",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Andrea Thurston (ops)",
+    "neighborhood": "",
+    "category": "Other"
+  },
+  {
+    "name": "Grand Restaurant Group",
+    "neighborhood": "SD N. County",
+    "category": "Restaurant"
+  },
+  {
+    "name": "Cohn Restaurant Group",
+    "neighborhood": "San Diego",
+    "category": "Restaurant"
+  },
+  {
+    "name": "Prager Brothers",
+    "neighborhood": "Carlsbad/Encinitas",
+    "category": "Other"
+  },
+  {
+    "name": "Le Parfait Paris",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Porto\u2019s Bakery",
+    "neighborhood": "LA (Glendale+)",
+    "category": "Bakery"
+  },
+  {
+    "name": "Bacari",
+    "neighborhood": "LA -> SD",
+    "category": "Other"
+  },
+  {
+    "name": "The Brant",
+    "neighborhood": "OC -> Encinitas",
+    "category": "Other"
+  },
+  {
+    "name": "Teleferic Barcelona",
+    "neighborhood": "Bay Area -> UTC",
+    "category": "Other"
+  },
+  {
+    "name": "Joint Venture RG (Jon & Vinny\u2019s)",
+    "neighborhood": "LA -> SD",
+    "category": "Other"
+  },
+  {
+    "name": "Urban Plates",
+    "neighborhood": "SoCal",
+    "category": "Other"
+  },
+  {
+    "name": "Broad Street Oyster Co.",
+    "neighborhood": "LA",
+    "category": "Other"
+  },
+  {
+    "name": "Mendocino Farms",
+    "neighborhood": "SoCal",
+    "category": "Other"
+  },
+  {
+    "name": "6G Logistics",
+    "neighborhood": "IE+OC+LA (4 sites)",
+    "category": "Other"
+  },
+  {
+    "name": "XB Fulfillment",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "JD Group Logistics",
+    "neighborhood": "SD / Baja",
+    "category": "Other"
+  },
+  {
+    "name": "Flex Logistics",
+    "neighborhood": "SoCal (IE)",
+    "category": "Other"
+  },
+  {
+    "name": "Westset Logistics",
+    "neighborhood": "Near LA/LB ports",
+    "category": "Other"
+  },
+  {
+    "name": "WSA Distributing",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Taylored Fulfillment",
+    "neighborhood": "SoCal + NY/NJ",
+    "category": "Other"
+  },
+  {
+    "name": "Mobix",
+    "neighborhood": "Tustin (OC)",
+    "category": "Other"
+  },
+  {
+    "name": "Motivational Fulfillment",
+    "neighborhood": "Redlands (IE)",
+    "category": "Other"
+  },
+  {
+    "name": "Weber Logistics / Saddle Creek",
+    "neighborhood": "IE / ports",
+    "category": "Other"
+  },
+  {
+    "name": "Little Miss Brewing",
+    "neighborhood": "Logan Heights + county",
+    "category": "Brewery"
+  },
+  {
+    "name": "Harland Brewing",
+    "neighborhood": "Scripps Ranch + 4 locations",
+    "category": "Brewery"
+  },
+  {
+    "name": "Pizza Port",
+    "neighborhood": "OB/Carlsbad/Solana Bch/Bressi",
+    "category": "Restaurant"
+  },
+  {
+    "name": "TapRoom Beer Co / SD TapRoom",
+    "neighborhood": "North Park + Pacific Beach",
+    "category": "Brewery"
+  },
+  {
+    "name": "Mike Hess Brewing",
+    "neighborhood": "SD multi-location",
+    "category": "Brewery"
+  },
+  {
+    "name": "Thorn Brewing",
+    "neighborhood": "North Park/Barrio Logan +",
+    "category": "Brewery"
+  },
+  {
+    "name": "Pure Project",
+    "neighborhood": "Multiple SD taprooms",
+    "category": "Other"
+  },
+  {
+    "name": "Culture Brewing",
+    "neighborhood": "Coastal taprooms",
+    "category": "Brewery"
+  },
+  {
+    "name": "Eppig Brewing",
+    "neighborhood": "Pt Loma + North Park",
+    "category": "Brewery"
+  },
+  {
+    "name": "Coronado Brewing",
+    "neighborhood": "Coronado + SD",
+    "category": "Brewery"
+  },
+  {
+    "name": "Black Plague Brewing",
+    "neighborhood": "Oceanside + Escondido",
+    "category": "Brewery"
+  },
+  {
+    "name": "Mossy Automotive Group",
+    "neighborhood": "SD metro",
+    "category": "Other"
+  },
+  {
+    "name": "Ball Auto Group",
+    "neighborhood": "National City",
+    "category": "Other"
+  },
+  {
+    "name": "Hoehn Motors",
+    "neighborhood": "Carlsbad",
+    "category": "Other"
+  },
+  {
+    "name": "Dalton Auto Group (Mile of Cars)",
+    "neighborhood": "National City",
+    "category": "Other"
+  },
+  {
+    "name": "Sunroad Auto Group",
+    "neighborhood": "San Diego",
+    "category": "Other"
+  },
+  {
+    "name": "Perry Automotive Group",
+    "neighborhood": "National City",
+    "category": "Other"
+  },
+  {
+    "name": "Leucadia Donut Shoppe",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Family-owned donut shop run by Tom and Emily Cheu for 29+ years; loyal, multi-generational customer base",
+    "website": "https://m.facebook.com/LeucadiaDonuts/#!/LeucadiaDonuts/",
+    "rating": "4.7",
+    "reviews": "473"
+  },
+  {
+    "name": "Bee's Bread Co",
+    "neighborhood": "Coronado",
+    "category": "Bakery",
+    "year": "2025",
+    "description": "Small-batch sourdough bakery; owner created starter from scratch, opened Nov 2025, product regularly sells out",
+    "website": "https://www.beesbread.co/",
+    "rating": "4.5",
+    "reviews": "2"
+  },
+  {
+    "name": "California Baking Company",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "1964 (as Balboa Baking Company; renamed 1993)",
+    "description": "One of the first bakeries in Southern California (est. 1964); wholesale bread manufacturer supplying hotels, delis, restaurants, casinos, and supermarkets across the region.",
+    "website": "https://cabakingcompany.com/",
+    "rating": "3.8",
+    "reviews": "25"
+  },
+  {
+    "name": "Little Fox Cups + Cones",
+    "neighborhood": "",
+    "category": "Dessert",
+    "description": "Small-batch, made-from-scratch craft ice cream shop with a strong local following (16K+ Instagram); single-location independent operator in the Freeman Collective food hall.",
+    "website": "http://www.littlefoxcupsandcones.com/",
+    "rating": "4.9",
+    "reviews": "297"
+  },
+  {
+    "name": "The Kilted Cake and Supply",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2012",
+    "description": "Family-owned cake supply shop and custom cake bakery offering decorating classes, est. 2012",
+    "website": "http://www.thekiltedcake.com/",
+    "rating": "4.9",
+    "reviews": "86"
+  },
+  {
+    "name": "Unique Pastry Factory",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2017",
+    "description": "Independent Italian gelato parlor with 75 house-made flavors plus Hungarian chimney cones, est. 2017, high review volume signals strong demand",
+    "website": "http://www.uniquepastryfactory.com/",
+    "rating": "4.8",
+    "reviews": "520"
+  },
+  {
+    "name": "Seven Seas Roasting Co. Solana Beach",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "description": "Founder left a law career to learn coffee roasting in Southeast Asia; pays micro-lot farmers ~300% above market average",
+    "website": "http://sevenseasroasting.com/",
+    "rating": "4.8",
+    "reviews": "117"
+  },
+  {
+    "name": "KAFE'SITO",
+    "neighborhood": "Solana Beach",
+    "category": "Other",
+    "description": "Design-forward wellness cafe concept; owner personally engages with customers",
+    "website": "https://kafesito.com/",
+    "rating": "4.9",
+    "reviews": "34"
+  },
+  {
+    "name": "Achilles Coffee Roasters Solana Beach",
+    "neighborhood": "Solana Beach",
+    "category": "Coffee",
+    "year": "2015",
+    "description": "Locally owned micro coffee roaster that grew from a Gaslamp coffee cart into 5 San Diego County cafe locations",
+    "website": "http://achillescoffeeroasters.com/",
+    "rating": "4.7",
+    "reviews": "296"
+  },
+  {
+    "name": "The Naked Cafe Solana Beach",
+    "neighborhood": "Solana Beach",
+    "category": "Coffee",
+    "description": "Independent, owner-founded concept with 3 SoCal locations (Solana Beach, Carlsbad, Encinitas)",
+    "website": "https://www.thenakedcafe.com/",
+    "rating": "4.5",
+    "reviews": "614"
+  },
+  {
+    "name": "Barefoot Coffee Roasters Solana Beach",
+    "neighborhood": "Solana Beach",
+    "category": "Bakery",
+    "year": "2003",
+    "description": "Family-run boutique roaster since 2003; expanded from Silicon Valley (Santa Clara) to a San Diego (Solana Beach) location in 2019",
+    "website": "https://www.barefootcoffee.com/",
+    "rating": "4.3",
+    "reviews": "287"
+  },
+  {
+    "name": "Buon Appetito Restaurant",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "year": "2003",
+    "description": "Family-owned since 2003; part of small independent local group (Buon Appetito, Sogno Di Vino, The Market by B.A., Trattoria Trulli) sharing traditional family recipes",
+    "website": "https://www.buonappetitosandiego.com/",
+    "rating": "4.5",
+    "reviews": "3330"
+  },
+  {
+    "name": "Mona Lisa Italian Foods",
+    "neighborhood": "Little Italy",
+    "category": "Bakery",
+    "year": "1956",
+    "description": "Family-owned and operated since 1956 (3 generations); restaurant & deli under one roof; one of the original India St Italian food businesses",
+    "website": "http://monalisalittleitaly.com/",
+    "rating": "4.5",
+    "reviews": "5145"
+  },
+  {
+    "name": "Cakes to Celebrate",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "~2013 (13+ yrs in business per site)",
+    "description": "Wedding cake design studio near Temecula Wine Country; flavors incorporate local winery champagnes",
+    "website": "http://www.cakes-to-celebrate.com/",
+    "rating": "5",
+    "reviews": "25"
+  },
+  {
+    "name": "BoCakes",
+    "neighborhood": "",
+    "category": "Bakery",
+    "year": "2003",
+    "description": "Family-owned wedding cake bakery operating since 2003, focused solely on custom wedding/occasion cakes",
+    "website": "https://www.bocakes.com/",
+    "rating": "4.4",
+    "reviews": "37"
+  },
+  {
+    "name": "Morning Glory",
+    "neighborhood": "Little Italy",
+    "category": "Coffee",
+    "year": "2019",
+    "description": "$4M single-location breakfast/brunch concept from local independent restaurant group Consortium Holdings (CH Projects), known for an extensive pastry and coffee program",
+    "website": "http://www.morningglorybreakfast.com/",
+    "rating": "4.3",
+    "reviews": "3772"
+  },
+  {
+    "name": "Drift Cafe",
+    "neighborhood": "Pacific Beach",
+    "category": "Coffee",
+    "description": "Independent, women-owned Pacific Beach cafe positioned around a seed-oil-free, health-forward breakfast/brunch menu; single location with strong social following (6.6k IG followers)",
+    "website": "http://driftcafesd.com/",
+    "rating": "4.7",
+    "reviews": "449"
+  },
+  {
+    "name": "Cali Cream",
+    "neighborhood": "Encinitas",
+    "category": "Bakery",
+    "description": "Locally owned & operated small-batch ice cream and bakery with 2 locations (Encinitas, downtown San Diego)",
+    "website": "https://calicreamicecream.com/",
+    "rating": "4.7",
+    "reviews": "416"
+  }
+]

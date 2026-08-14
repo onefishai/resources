@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lookup Tables — Onefish AI</title>
+  <meta name="description" content="How a simple mapping table reconciles item names across POS, delivery, and ordering channels so reporting and forecasting add up.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="https://onefishai.github.io/" class="nav__brand">
+        <img src="../../assets/img/onefish-logo.svg" alt="Onefish AI" width="32" height="25">
+        Onefish AI
+      </a>
+      <ul class="nav__links">
+        <li><a href="../../guide/san-diego/">Guide</a></li>
+        <li><a href="../../learn/" class="nav__link--active">Learn</a></li>
+        <li><a href="https://github.com/onefishai/resources">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../">Resources</a>
+        <span class="breadcrumb__sep">/</span>
+        <a href="../">Learn</a>
+        <span class="breadcrumb__sep">/</span>
+        <span>Lookup Tables</span>
+      </nav>
+
+      <div class="article-header">
+        <p class="article-header__eyebrow">Topic 1 &mdash; Lookup Tables</p>
+        <h1 class="article-header__title">Lookup Tables for Multi-Channel Item Names</h1>
+        <p class="article-header__lede">If you sell through more than one channel, the same item almost certainly has more than one name. Here is how a lookup table brings them all back together.</p>
+      </div>
+
+      <div class="article-layout">
+
+        <aside class="article-sidebar">
+          <p class="article-sidebar__label">On this page</p>
+          <ul class="article-nav-list">
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#problem">The Problem</a></li>
+            <li><a href="#solution">The Solution</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#example">Real Example</a></li>
+            <li><a href="#walkthrough">Walkthrough</a></li>
+            <li><a href="#best-practices">Best Practices</a></li>
+          </ul>
+        </aside>
+
+        <div class="article-content">
+
+          <section id="intro">
+            <h2>Introduction</h2>
+            <p>Most independent eateries sell through several channels at once: a point-of-sale system for in-store transactions, one or more delivery platforms, and sometimes a separate online ordering tool or catering portal. Each of these channels keeps its own item catalog, and they rarely agree on names.</p>
+            <p>A lookup table (LUT) is the simplest tool for solving this. It is a mapping between one canonical name &mdash; the name you have chosen as the source of truth &mdash; and every synonym that same item goes by elsewhere. Once the mapping exists, it can be applied consistently anywhere you combine data from different sources.</p>
+          </section>
+
+          <section id="problem">
+            <h2>The Problem</h2>
+            <p>The same physical item almost never has the same name everywhere it is sold. Your in-store menu might call it one thing, a delivery platform might list it differently, and another ordering channel might abbreviate or reformat the name entirely.</p>
+            <p>Individually, each channel's data is accurate. But the moment you try to combine them &mdash; to see total sales, total demand, or how one item is performing across your whole operation &mdash; the name mismatches break the aggregation. Without reconciliation, what looks like three different items in your reporting might actually be one item sold three different ways.</p>
+          </section>
+
+          <section id="solution">
+            <h2>The Solution</h2>
+            <p>A lookup table has two columns: the canonical name you have defined internally, and the channel-specific name it maps from. Each canonical item can have as many mapping rows as it has name variants across your channels.</p>
+            <p>The table does not need to be sophisticated. A spreadsheet with two columns works. What matters is that it is maintained consistently and applied every time you combine data from more than one source.</p>
+          </section>
+
+          <section id="benefits">
+            <h2>Benefits</h2>
+            <ul>
+              <li><strong>Accurate cross-channel reporting.</strong> Sales and volume roll up correctly under one item, regardless of which channel they came from.</li>
+              <li><strong>More reliable demand forecasting.</strong> Forecasting models see the full combined demand signal for an item instead of fragmented partial counts.</li>
+              <li><strong>Less manual reconciliation.</strong> Once the mapping exists, it is applied automatically rather than eyeballed spreadsheet by spreadsheet.</li>
+              <li><strong>A single place to update.</strong> When a channel renames an item, you update the lookup table once rather than every downstream report that references it.</li>
+            </ul>
+          </section>
+
+          <section id="example">
+            <h2>Real Example</h2>
+            <p>Say you sell a baked good in-store and through two delivery platforms. Each channel uses its own name for the same item:</p>
+            <div class="card" style="padding:0;overflow:hidden;margin-bottom:1rem">
+              <table class="example-table">
+                <thead>
+                  <tr><th>Canonical Name</th><th>Channel</th><th>Channel Name</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Blueberry Muffin</td><td>In-Store POS</td><td>Blueberry Muffin</td></tr>
+                  <tr><td>Blueberry Muffin</td><td>Delivery Platform A</td><td>Blueberry Muffins (6 pk)</td></tr>
+                  <tr><td>Blueberry Muffin</td><td>Delivery Platform B</td><td>BB Muffin &mdash; Fresh Baked</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>All three rows point to the same canonical item, so any report or forecast built on this data sees one "Blueberry Muffin" with combined demand from all three sources.</p>
+          </section>
+
+          <section id="walkthrough">
+            <h2>Walkthrough</h2>
+            <ol>
+              <li><strong>Build your canonical item list.</strong> Start with the names you already use internally &mdash; your menu, your POS, or your own product catalog. This becomes the source-of-truth column.</li>
+              <li><strong>Gather the channel export names.</strong> Pull an item export from each channel you sell through so you can see exactly how each one labels your items.</li>
+              <li><strong>Match and create mappings.</strong> For each channel name, find its canonical match and add a row to the lookup table. Most items map one-to-one; some will have several synonyms across channels.</li>
+              <li><strong>Handle unmapped items.</strong> Anything that does not match an existing canonical name is either a new item or a renamed one. Review these regularly, decide whether they represent something new, and add them to the table.</li>
+              <li><strong>Apply the table to your reporting.</strong> Wherever you combine data from different channels, join it through the lookup table first so every downstream report already sees canonical names.</li>
+            </ol>
+          </section>
+
+          <section id="best-practices">
+            <h2>Best Practices</h2>
+            <ul>
+              <li>Review unmapped items on a regular cadence. Channels rename and add items more often than you would expect.</li>
+              <li>Keep canonical names stable once chosen. Renaming a canonical item breaks historical reporting continuity.</li>
+              <li>Document channel-specific quirks &mdash; packaging counts, abbreviations, seasonal naming &mdash; so the next person maintaining the table understands the pattern.</li>
+              <li>Treat the lookup table as a living document, not a one-time setup. New channels and new items mean it never truly stops growing.</li>
+            </ul>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Onefish AI &middot; <a href="https://onefish.ai/">onefish.ai</a></p>
+  </footer>
+</body>
+</html>

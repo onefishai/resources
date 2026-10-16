@@ -197,6 +197,12 @@
       var rl = new URLSearchParams(location.search).get("rl");
       rl = rl && /^[A-Za-z0-9]{8,64}$/.test(rl) ? rl : "";
       if (rl) { $("book").href += "&rl=" + rl; $("bookAfter").href += "&rl=" + rl; } else $("emailField").hidden = false;
+      // the emailed link also carries who it was sent to (n name, e email, s business) and whose calendar (c), as our booking links do:
+      // pass them on so the calendar opens already filled in
+      var q = new URLSearchParams(location.search), who = "";
+      ["n", "e", "s", "c"].forEach(function (k) { var v = (q.get(k) || "").slice(0, 200); if (v) who += "&" + k + "=" + encodeURIComponent(v); });
+      $("book").href += who; $("bookAfter").href += who;
+      if (q.get("e")) $("email").value = q.get("e").slice(0, 200);
       var API = "https://api.onefish.ai/relay/";
       function hhmm(id) {
         var v = $(id).value; if (!v) return "";

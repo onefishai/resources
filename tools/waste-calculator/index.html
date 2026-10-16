@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Waste Calculator — Onefish AI</title>
-  <meta name="description" content="What waste costs your bakery or café each year, and what cutting it is worth — the same math as Your Guide to Mariana. Nothing you type leaves this page.">
+  <meta name="description" content="What waste costs your bakery or café each year, and what cutting it is worth. Set your own target and, if you like, send it to Onefish. Nothing leaves this page unless you press Send.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -33,6 +33,14 @@
     .cta { margin-top: 1.5rem; }
     .cta p { font-size: 0.9375rem; margin-bottom: 0.875rem; }
     .fine { font-size: 0.8125rem; opacity: 0.7; max-width: 46rem; margin-bottom: 3rem; }
+    .field__row input[type="time"], .field__row input[type="email"], .field__row input.short { font-family: var(--font-mono); max-width: 11rem; }
+    .field__row input[type="email"] { max-width: 18rem; }
+    textarea { width: 100%; min-height: 4.5rem; font: inherit; padding: 0.5rem; border: 1px solid var(--border); border-radius: 0.5rem; background: var(--bg); color: inherit; }
+    .send { margin-top: 1.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem; }
+    .send p { font-size: 0.9375rem; margin-bottom: 0.875rem; }
+    .send__done { font-weight: 600; color: var(--accent); }
+    .send__err { color: #b3402b; font-size: 0.875rem; }
+    .hp { position: absolute; left: -9999px; }
     @media (max-width: 760px) { .calc { grid-template-columns: 1fr; } .result__value { font-size: 2rem; } }
   </style>
 </head>
@@ -57,7 +65,7 @@
       <div class="learn-hero">
         <p class="learn-hero__eyebrow">Free tool · 2 minutes</p>
         <h1 class="learn-hero__title">What does waste cost you?</h1>
-        <p class="learn-hero__sub">Your weekly sales and how much goes unsold. You'll see what waste costs you a year, and what cutting it is worth. Nothing you type leaves this page.</p>
+        <p class="learn-hero__sub">Your weekly sales and how much goes unsold. You'll see what waste costs you a year and what cutting it is worth. Set your own target, and send it to us if you'd like us to look. Nothing leaves this page unless you press Send.</p>
       </div>
 
       <div class="calc">
@@ -80,6 +88,31 @@
             <div class="field__row"><input id="ing" type="range" min="10" max="70" step="1" value="40"><span class="field__val" id="ingVal">40%</span></div>
             <p class="field__help">Waste costs you the ingredients, not the full price.</p>
           </div>
+
+          <div class="field">
+            <label for="sellout">When do your best sellers usually sell out?</label>
+            <div class="field__row"><input id="sellout" type="time" step="900"><span class="field__unit">leave empty if they don't</span></div>
+          </div>
+
+          <div class="field">
+            <label for="items">Items you bake or make each day</label>
+            <div class="field__row"><input id="items" class="short" type="number" inputmode="numeric" min="1" step="1" placeholder="e.g. 30"></div>
+          </div>
+
+          <div class="field">
+            <label for="stores">Stores</label>
+            <div class="field__row"><input id="stores" class="short" type="number" inputmode="numeric" min="1" step="1" value="1"></div>
+          </div>
+
+          <h2 style="margin-top:1.75rem">Your target</h2>
+          <div class="field">
+            <label for="tWaste">Waste you'd like to get to</label>
+            <div class="field__row"><input id="tWaste" type="range" min="2" max="20" step="1" value="6"><span class="field__val" id="tWasteVal">6%</span></div>
+          </div>
+          <div class="field">
+            <label for="tSellout">Best sellers should last until</label>
+            <div class="field__row"><input id="tSellout" type="time" step="900"></div>
+          </div>
         </section>
 
         <section class="calc__panel" aria-labelledby="out-title" aria-live="polite">
@@ -93,14 +126,30 @@
             <tbody id="cases"></tbody>
           </table>
 
-          <div class="cta">
-            <p>Mariana plans each day's bake from your own sales, item by item, so less is left at close without selling out early. We can show you where your waste is in two weeks, free.</p>
-            <a class="btn btn--primary" id="book" href="https://onefish.ai/book/?src=waste-calculator">Book 15 minutes &rarr;</a>
+          <p class="result__label" style="margin-top:1.25rem">At your target</p>
+          <p class="result__note" id="outTarget"></p>
+
+          <div class="send" id="send">
+            <p>Mariana plans each day's bake from your own sales, item by item, so less is left at close without selling out early. Send us these numbers and your target: we'll look at whether Mariana can get you there, and if we see a way, we'll show you on a 30-minute call.</p>
+            <div class="field" id="emailField" hidden>
+              <label for="email">Your email (so we can answer)</label>
+              <div class="field__row"><input id="email" type="email" autocomplete="email" placeholder="you@yourbakery.com"></div>
+            </div>
+            <div class="field">
+              <label for="note">Anything else? (optional)</label>
+              <textarea id="note" maxlength="480" placeholder="e.g. croissants are what's left most"></textarea>
+            </div>
+            <input class="hp" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button class="btn btn--primary" id="sendBtn" type="button">Send my numbers to Onefish &rarr;</button>
+            <p class="field__help">Only the numbers on this page (and your email, if asked) go to Onefish, to answer you. Nothing else, and never shared.</p>
+            <p class="send__err" id="sendErr" hidden></p>
           </div>
+          <p class="send__done" id="sendDone" hidden>Thanks, sent. David will look at your numbers and get back to you, usually within a day.</p>
+          <p class="field__help" style="margin-top:1rem">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book 15 minutes</a></p>
         </section>
       </div>
 
-      <p class="fine">How it works (the same math as <em>Your Guide to Mariana</em>): waste a year = weekly sales × 52 × waste share; it costs you that × the ingredient share. The cases cut waste by 15%, 23% and 31% (the last is the result we've seen at a customer bakery), never below 5% of sales: under that, items usually sell out early, which is lost sales, not savings. Estimates for your own use; nothing is stored or sent.</p>
+      <p class="fine">How it works (the same math as <em>Your Guide to Mariana</em>): waste a year = weekly sales × 52 × waste share; it costs you that × the ingredient share. The cases cut waste by 15%, 23% and 31% (the last is the result we've seen at a customer bakery), never below 5% of sales: under that, items usually sell out early, which is lost sales, not savings. Estimates for your own use; nothing is stored, and nothing is sent unless you press Send.</p>
     </div>
   </main>
 
@@ -132,11 +181,50 @@
         });
         $("cases").innerHTML = rows.join("");
       }
-      ["weekly", "waste", "ing"].forEach(function (id) { $(id).addEventListener("input", calc); });
-      // an emailed link arrives with ?rl=<tracked link id>: pass it on to the booking page
+      function target() {
+        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 20), ing = num("ing", 0, 100) / 100, tw = num("tWaste", 0, 20);
+        $("tWasteVal").textContent = tw + "%";
+        var keep = weekly * 52 * Math.max(rp - tw, 0) / 100 * ing;
+        $("outTarget").textContent = tw >= rp ? "Your target is at or above where you are now." :
+          "Waste from " + rp + "% to " + tw + "% keeps about " + money(keep) + " a year at ingredient cost.";
+      }
+      ["weekly", "waste", "ing", "tWaste"].forEach(function (id) { $(id).addEventListener("input", function () { calc(); target(); }); });
+      // an emailed link arrives with ?rl=<tracked link id>: pass it on to the booking page and to Send
       var rl = new URLSearchParams(location.search).get("rl");
-      if (rl && /^[A-Za-z0-9]{8,64}$/.test(rl)) $("book").href += "&rl=" + rl;
-      calc();
+      rl = rl && /^[A-Za-z0-9]{8,64}$/.test(rl) ? rl : "";
+      if (rl) $("book").href += "&rl=" + rl; else $("emailField").hidden = false;
+      var API = "https://api.onefish.ai/relay/";
+      function hhmm(id) {
+        var v = $(id).value; if (!v) return "";
+        var h = +v.slice(0, 2), m = v.slice(3, 5);
+        return (h % 12 || 12) + (m === "00" ? "" : ":" + m) + (h < 12 ? " am" : " pm");
+      }
+      $("sendBtn").addEventListener("click", function () {
+        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 20), ing = num("ing", 0, 100) / 100;
+        var nums = {
+          daily_sales: String(Math.round(weekly / 7)), leftover_pct: String(rp), sellout_time: hhmm("sellout"),
+          items: $("items").value, stores: $("stores").value, target_leftover_pct: String(num("tWaste", 0, 20)),
+          target_sellout_time: hhmm("tSellout"), yearly_cost: String(Math.round(weekly * 52 * rp / 100 * ing)),
+          note: $("note").value.slice(0, 480)
+        };
+        var url, body;
+        if (rl) { url = API + "numbers/" + rl; body = nums; }
+        else {
+          var email = $("email").value.trim();
+          if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { $("sendErr").textContent = "Add your email so we can answer."; $("sendErr").hidden = false; return; }
+          var msg = "Check your numbers: daily sales ~$" + nums.daily_sales + ", waste " + nums.leftover_pct + "%" +
+            (nums.sellout_time ? ", best sellers gone by " + nums.sellout_time : "") + (nums.items ? ", " + nums.items + " items" : "") +
+            ", " + (nums.stores || "1") + " store(s). Target: waste " + nums.target_leftover_pct + "%" +
+            (nums.target_sellout_time ? ", best sellers last until " + nums.target_sellout_time : "") + "." + (nums.note ? " Note: " + nums.note : "");
+          url = API + "form/cus_onefish-ai";
+          body = { kind: "call_request", email: email, message: msg.slice(0, 1990), page: location.href.split("?")[0], website: $("website").value };
+        }
+        $("sendBtn").disabled = true; $("sendErr").hidden = true;
+        fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
+          .then(function (r) { if (!r.ok) throw new Error(r.status); $("send").hidden = true; $("sendDone").hidden = false; })
+          .catch(function () { $("sendBtn").disabled = false; $("sendErr").textContent = "That didn't go through. Please try again, or email dmoon@onefish.ai."; $("sendErr").hidden = false; });
+      });
+      calc(); target();
     })();
   </script>
 </body>

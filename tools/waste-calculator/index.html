@@ -144,8 +144,13 @@
             <p class="field__help">Only the numbers on this page (and your email, if asked) go to Onefish, to answer you. Nothing else, and never shared.</p>
             <p class="send__err" id="sendErr" hidden></p>
           </div>
-          <p class="send__done" id="sendDone" hidden>Thanks, sent. David will look at your numbers and get back to you, usually within a day.</p>
-          <p class="field__help" style="margin-top:1rem">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
+          <div id="sendDone" hidden>
+            <p class="send__done">Thanks, sent.</p>
+            <p>I'll reply within a day with what I see for your target.</p>
+            <p style="margin-top:1rem">Want to talk it through now?</p>
+            <a class="btn btn--primary" id="bookAfter" href="https://onefish.ai/book/?src=waste-calculator-sent">Pick a 30-minute time &rarr;</a>
+          </div>
+          <p class="field__help" style="margin-top:1rem" id="talkFirst">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
         </section>
       </div>
 
@@ -192,7 +197,7 @@
       // an emailed link arrives with ?rl=<tracked link id>: pass it on to the booking page and to Send
       var rl = new URLSearchParams(location.search).get("rl");
       rl = rl && /^[A-Za-z0-9]{8,64}$/.test(rl) ? rl : "";
-      if (rl) $("book").href += "&rl=" + rl; else $("emailField").hidden = false;
+      if (rl) { $("book").href += "&rl=" + rl; $("bookAfter").href += "&rl=" + rl; } else $("emailField").hidden = false;
       var API = "https://api.onefish.ai/relay/";
       function hhmm(id) {
         var v = $(id).value; if (!v) return "";
@@ -221,7 +226,7 @@
         }
         $("sendBtn").disabled = true; $("sendErr").hidden = true;
         fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
-          .then(function (r) { if (!r.ok) throw new Error(r.status); $("send").hidden = true; $("sendDone").hidden = false; })
+          .then(function (r) { if (!r.ok) throw new Error(r.status); $("send").hidden = true; $("sendDone").hidden = false; $("talkFirst").hidden = true; })
           .catch(function () { $("sendBtn").disabled = false; $("sendErr").textContent = "That didn't go through. Please try again, or email dmoon@onefish.ai."; $("sendErr").hidden = false; });
       });
       calc(); target();

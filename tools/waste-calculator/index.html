@@ -146,9 +146,8 @@
           </div>
           <div id="sendDone" hidden>
             <p class="send__done">Thanks, sent.</p>
-            <p>I'll reply within a day with what I see for your target.</p>
-            <p style="margin-top:1rem">Want to talk it through now?</p>
-            <a class="btn btn--primary" id="bookAfter" href="https://onefish.ai/book/?src=waste-calculator-sent">Pick a 30-minute time &rarr;</a>
+            <p>I'll reply within a day with what I see for your target. Opening the calendar so you can pick a 30-minute time&hellip;</p>
+            <a class="btn btn--primary" id="bookAfter" href="https://onefish.ai/book/?src=waste-calculator-sent">Open the calendar &rarr;</a>
           </div>
           <p class="field__help" style="margin-top:1rem" id="talkFirst">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
         </section>
@@ -226,7 +225,8 @@
         }
         $("sendBtn").disabled = true; $("sendErr").hidden = true;
         fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
-          .then(function (r) { if (!r.ok) throw new Error(r.status); $("send").hidden = true; $("sendDone").hidden = false; $("talkFirst").hidden = true; })
+          .then(function (r) { if (!r.ok) throw new Error(r.status); $("send").hidden = true; $("sendDone").hidden = false; $("talkFirst").hidden = true;
+            setTimeout(function () { location.href = $("bookAfter").href; }, 1500); })  // straight on to the calendar
           .catch(function () { $("sendBtn").disabled = false; $("sendErr").textContent = "That didn't go through. Please try again, or email dmoon@onefish.ai."; $("sendErr").hidden = false; });
       });
       calc(); target();

@@ -79,8 +79,8 @@
 
           <div class="field">
             <label for="waste">Waste, as a share of sales</label>
-            <div class="field__row"><input id="waste" type="range" min="0" max="20" step="1" value="12"><span class="field__val" id="wasteVal">12%</span></div>
-            <p class="field__help" id="wasteNote">Many bakeries sit around 5–10%.</p>
+            <div class="field__row"><input id="waste" type="range" min="0" max="30" step="1" value="12"><span class="field__val" id="wasteVal">12%</span></div>
+            <p class="field__help" id="wasteNote">Many bakeries sit around 10–20%.</p>
           </div>
 
           <div class="field">
@@ -145,7 +145,7 @@
             <p class="send__err" id="sendErr" hidden></p>
           </div>
           <p class="send__done" id="sendDone" hidden>Thanks, sent. David will look at your numbers and get back to you, usually within a day.</p>
-          <p class="field__help" style="margin-top:1rem">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book 15 minutes</a></p>
+          <p class="field__help" style="margin-top:1rem">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
         </section>
       </div>
 
@@ -165,11 +165,11 @@
       var money = function (n) { return "$" + Math.round(n).toLocaleString("en-US"); };
       var num = function (id, lo, hi) { var v = parseFloat($(id).value); return isFinite(v) ? Math.min(Math.max(v, lo), hi) : 0; };
       function calc() {
-        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 20), ing = num("ing", 0, 100) / 100;
+        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 30), ing = num("ing", 0, 100) / 100;
         var yearSales = weekly * 52, wasteYear = yearSales * rp / 100;
         $("wasteVal").textContent = rp + "%";
         $("ingVal").textContent = Math.round(ing * 100) + "%";
-        $("wasteNote").textContent = rp < FLOOR ? "Under 5% often means items sell out early. That is lost sales, not savings." : "Many bakeries sit around 5–10%.";
+        $("wasteNote").textContent = rp < FLOOR ? "Under 5% often means items sell out early. That is lost sales, not savings." : "Many bakeries sit around 10–20%.";
         $("outCost").textContent = money(wasteYear * ing);
         $("outSales").textContent = money(wasteYear) + " of food a year at menu price, on " + money(yearSales) + " in sales";
         var rows = CASES.map(function (c) {
@@ -182,7 +182,7 @@
         $("cases").innerHTML = rows.join("");
       }
       function target() {
-        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 20), ing = num("ing", 0, 100) / 100, tw = num("tWaste", 0, 20);
+        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 30), ing = num("ing", 0, 100) / 100, tw = num("tWaste", 0, 20);
         $("tWasteVal").textContent = tw + "%";
         var keep = weekly * 52 * Math.max(rp - tw, 0) / 100 * ing;
         $("outTarget").textContent = tw >= rp ? "Your target is at or above where you are now." :
@@ -200,7 +200,7 @@
         return (h % 12 || 12) + (m === "00" ? "" : ":" + m) + (h < 12 ? " am" : " pm");
       }
       $("sendBtn").addEventListener("click", function () {
-        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 20), ing = num("ing", 0, 100) / 100;
+        var weekly = num("weekly", 0, 1e8), rp = num("waste", 0, 30), ing = num("ing", 0, 100) / 100;
         var nums = {
           daily_sales: String(Math.round(weekly / 7)), leftover_pct: String(rp), sellout_time: hhmm("sellout"),
           items: $("items").value, stores: $("stores").value, target_leftover_pct: String(num("tWaste", 0, 20)),

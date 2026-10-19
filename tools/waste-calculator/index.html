@@ -147,9 +147,9 @@
           <div id="sendDone" hidden>
             <p class="send__done">Thanks, sent.</p>
             <p>I'll reply within a day with what I see for your target. Opening the calendar so you can pick a 30-minute time&hellip;</p>
-            <a class="btn btn--primary" id="bookAfter" href="https://onefish.ai/book/?src=waste-calculator-sent" hidden>Open the calendar &rarr;</a>
+            <a class="btn btn--primary" id="bookAfter" data-cta="book" href="https://onefish.ai/book/?src=waste-calculator-sent" hidden>Open the calendar &rarr;</a>
           </div>
-          <p class="field__help" style="margin-top:1rem" id="talkFirst">Rather talk first? <a id="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
+          <p class="field__help" style="margin-top:1rem" id="talkFirst">Rather talk first? <a id="book" data-cta="book" href="https://onefish.ai/book/?src=waste-calculator">Book a 30-minute call</a></p>
         </section>
       </div>
 
@@ -161,6 +161,7 @@
     <p>Onefish AI &middot; <a href="https://onefish.ai/">onefish.ai</a></p>
   </footer>
 
+  <script src="../../assets/cta.js" defer></script>
   <script>
     (function () {
       var $ = function (id) { return document.getElementById(id); };
